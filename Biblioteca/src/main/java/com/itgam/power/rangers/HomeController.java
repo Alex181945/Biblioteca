@@ -1,4 +1,4 @@
-package com.itgam.power;
+package com.itgam.power.rangers;
 
 import java.text.DateFormat;
 import java.util.Date;
