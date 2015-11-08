@@ -5,4 +5,4 @@
  * @author alest
  *
  */
-package com.itgam.power.rangers.util;
+package com.itgam.power.rangers.service.cb;
