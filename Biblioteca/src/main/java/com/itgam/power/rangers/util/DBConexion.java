@@ -12,7 +12,7 @@ public static Connection GetConnection(){
             Class.forName("com.mysql.jdbc.Driver");
             conexion = DriverManager.getConnection("jdbc:mysql://localhost:3311/dbbanco","root","root");
             System.out.println("Me conecte exitosamente");
-        } catch (ClassNotFoundException | SQLException e) {
+        } catch (Exception e) {
             System.out.println("Error de Conexión Intente Mas Tarde"
                     + " O Contacté con el área de Sistemas"+"\n"+e);
         }
