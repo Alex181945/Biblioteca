@@ -1,14 +1,15 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
-<html lang="en">
+<html>
 <head>
 <title>Biblioteca</title>
 <meta name="description" content="Place your description here">
 <meta name="keywords" content="put, your, keyword, here">
 <meta name="author" content="Templates.com - website templates provider">
-<link rel="stylesheet" href="<cresources/css/reset.css" type="text/css" media="all">
-<link rel="stylesheet" href="resources/css/style.css" type="text/css" media="all">
-<script type="text/javascript" src="resources/js/jquery-1.4.2.min.js" ></script>
+<link rel="stylesheet" href="css/reset.css" type="text css" media="all">
+<!--  <link rel="stylesheet" href="<c:url value= "resources/css/reset.css"/>" type="text css" media="all"> -->
+<link rel="stylesheet" href="<c:url value= "resources/css/style.css"/>" type="text/css" media="all">
+<script type="text/javascript" src="resources/js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="resources/js/cufon-replace.js"></script>
 <script type="text/javascript" src="resources/js/Myriad_Pro_300.font.js"></script>
@@ -93,7 +94,7 @@
          <div class="inside">
             <h2>Recent <span>Articles</span></h2>
             <ul class="list">
-               <li><span><img src="images/icon1.png"></span>
+               <li><span><img src="resources/image/icon1.png"></span>
                   <h4>About Template</h4>
                   <p>Free 1028X768 Optimized Website Template from TemplateMonster.com! We hope that you like this tem- plate and will use for your websites.</p>
                </li>
