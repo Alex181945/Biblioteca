@@ -6,8 +6,7 @@
 <meta name="description" content="Place your description here">
 <meta name="keywords" content="put, your, keyword, here">
 <meta name="author" content="Templates.com - website templates provider">
-<link rel="stylesheet" href="css/reset.css" type="text css" media="all">
-<!--  <link rel="stylesheet" href="<c:url value= "resources/css/reset.css"/>" type="text css" media="all"> -->
+<link rel="stylesheet" href="<c:url value= "resources/css/reset.css"/>" type="text css" media="all">
 <link rel="stylesheet" href="<c:url value= "resources/css/style.css"/>" type="text/css" media="all">
 <script type="text/javascript" src="resources/js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="resources/js/cufon-yui.js"></script>
@@ -38,7 +37,6 @@
                <li><a href="about-us.html" class="m2">About Us</a></li>
                <li><a href="articles.html" class="m3">Our Articles</a></li>
                <li><a href="contact-us.html" class="m4">Contact Us</a></li>
-               <li class="last"><a href="sitemap.html" class="m5">Site Map</a></li>
             </ul>
          </nav>
          <form action="" id="search-form">
@@ -98,18 +96,18 @@
                   <h4>About Template</h4>
                   <p>Free 1028X768 Optimized Website Template from TemplateMonster.com! We hope that you like this tem- plate and will use for your websites.</p>
                </li>
-               <li><span><img src="images/icon2.png"></span>
+               <li><span><img src="resources/image/icon2.png"></span>
                   <h4>Branch Office</h4>
                   <p>Sed ut perspiciatis unomnis iste natus error sit volup tatem accusantiu loremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
                </li>
-               <li class="last"><span><img src="images/icon3.png"></span>
+               <li class="last"><span><img src="resources/image/icon3.png"></span>
                   <h4>Student’s Time</h4>
                   <p>Eque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempo- ra incidunt ut labore.</p>
                </li>
             </ul>
             <h2>Move Forward <span>With Your Education</span></h2>
             <p><span class="txt1">Student’s Site</span> is a free web template created by TemplateMonster.com team. This website template is optimized for 1024X768 screen resolution. </p>
-            <div class="img-box"><img src="images/1page-img.jpg">This website template can be delivered in two packages - with PSD source files included and without them. If you need PSD source files, please go to the template download page at TemplateMonster to leave the e-mail address that you want the template ZIP package to be delivered to.</div>
+            <div class="img-box"><img src="resources/image/1page-img.jpg">This website template can be delivered in two packages - with PSD source files included and without them. If you need PSD source files, please go to the template download page at TemplateMonster to leave the e-mail address that you want the template ZIP package to be delivered to.</div>
             <p class="p0">This website template has several pages: <a href="index.html">Home</a>, <a href="about-us.html">About us</a>, <a href="articles.html">Articles</a> (with Article page), <a href="contact-us.html">Contact us</a> (note that contact us form – doesn’t work), <a href="sitemap.html">Site Map</a>.</p>
          </div>
       </section>

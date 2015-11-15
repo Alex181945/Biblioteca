@@ -50,7 +50,7 @@ body {
 
 	/* Header */
 	header {
-		background:url(../images/header-bg.jpg) no-repeat center top;
+		background:url(../image/header-bg.jpg) no-repeat center top;
 		min-width:940px;
 	}
 		header .container {
@@ -75,7 +75,7 @@ body {
 			
 	/* Footer */
 	footer {
-		background:url(../images/footer-bg.png) no-repeat center top;
+		background:url(../image/footer-bg.png) no-repeat center top;
 		margin-top:-121px;
 		min-width:940px;
 	}
@@ -120,7 +120,7 @@ body {
 	height:auto !important;
 	height:100%;
 	min-height:100%;
-	background:url(../images/tail-middle.jpg) repeat-y center 194px;
+	background:url(../image/tail-middle.jpg) repeat-y center 194px;
 	min-width:940px;
 }
 
@@ -149,7 +149,7 @@ fieldset {
 		font-size:.857em;
 		padding-bottom:8px;
 		margin-bottom:6px;
-		background:url(../images/divider1.gif) repeat-x left bottom;
+		background:url(../image/divider1.gif) repeat-x left bottom;
 	}
 	.categories li.last {
 		background:none;
@@ -160,7 +160,7 @@ fieldset {
 			display:block;
 			padding-left:15px;
 			height:1%;
-			background:url(../images/marker.gif) no-repeat left 5px;
+			background:url(../image/marker.gif) no-repeat left 5px;
 		}
 		.categories li a {
 			text-decoration:none;
@@ -209,7 +209,7 @@ fieldset {
 }		
 	.sitemap li {
 		padding:0 0 5px 16px;
-		background:url(../images/marker1.gif) no-repeat left 5px;
+		background:url(../image/marker1.gif) no-repeat left 5px;
 	}
 		.sitemap li ul {
 			padding-top:5px;
@@ -293,7 +293,7 @@ p {
 #banner {
 	width:691px;
 	height:299px;
-	background:url(../images/banner-bg.jpg) no-repeat left top;
+	background:url(../image/banner-bg.jpg) no-repeat left top;
 }
 	#banner h2 {
 		color:#fff;
@@ -333,7 +333,7 @@ h1 {
 		position:absolute;
 		left:0;
 		top:104px;
-		background:url(../images/logo.jpg) no-repeat left top;
+		background:url(../image/logo.jpg) no-repeat left top;
 	}
 h2 {
 	font-size:24px;
@@ -378,7 +378,7 @@ h4 {
 
 /*===== header =====*/
 header .nav-bg {
-	background:url(../images/nav-bg.png) no-repeat center top;
+	background:url(../image/nav-bg.png) no-repeat center top;
 }
 header nav {
 	position:absolute;
@@ -391,7 +391,7 @@ header nav {
 		line-height:1.2em;
 		text-transform:uppercase;
 		padding-right:1px;
-		background:url(../images/divider.gif) repeat-y right top;
+		background:url(../image/divider.gif) repeat-y right top;
 	}
 	header nav ul li.last {
 		background:none;
@@ -415,25 +415,25 @@ header nav {
 			width:186px;
 		}
 		header nav ul li.current a.m1 {
-			background-image:url(../images/m1-act.jpg);
+			background-image:url(../image/m1-act.jpg);
 		}
 		header nav ul li a.m2 {
 			width:179px;
 		}
 		header nav ul li.current a.m2 {
-			background-image:url(../images/m2-act.jpg);
+			background-image:url(../image/m2-act.jpg);
 		}
 		header nav ul li a.m3 {
 			width:208px;
 		}
 		header nav ul li.current a.m3 {
-			background-image:url(../images/m3-act.jpg);
+			background-image:url(../image/m3-act.jpg);
 		}
 		header nav ul li a.m4 {
 			width:196px;
 		}
 		header nav ul li.current a.m4 {
-			background-image:url(../images/m4-act.jpg);
+			background-image:url(../image/m4-act.jpg);
 		}
 		header nav ul li.last {
 			background:none;
@@ -443,7 +443,7 @@ header nav {
 				width:167px;
 			}
 			header nav ul li.current a.m5 {
-				background-image:url(../images/m5-act.jpg);
+				background-image:url(../image/m5-act.jpg);
 			}
 			
 	
@@ -513,7 +513,7 @@ footer .aligncenter {
 	padding-bottom:45px;
 }
 	#newsletter-form fieldset {
-		background:url(../images/newsletter-bg.gif) no-repeat left top;
+		background:url(../image/newsletter-bg.gif) no-repeat left top;
 		width:219px;
 		height:131px;
 		overflow:hidden;
