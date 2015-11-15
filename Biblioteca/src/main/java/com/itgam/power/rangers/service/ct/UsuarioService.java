@@ -3,7 +3,7 @@ package com.itgam.power.rangers.service.ct;
 import org.springframework.stereotype.Service;
 
 @Service
-public interface ctUsuarioService {
+public interface UsuarioService {
 
 	public void addctUsuario (ctUsuario obj_ctUsuario){
 		

@@ -2,7 +2,7 @@ package com.itgam.power.rangers.dao.ct;
 
 import com.itgam.power.rangers.service.ct.ctPrestamo;
 
-public interface ctPrestamoDao {
+public interface PrestamoDao {
 
 	public void addctPrestamo (ctPrestamo obj_ctPrestamo);
 	

@@ -1,6 +1,6 @@
 package com.itgam.power.rangers.service.ct;
 
-public interface ctLibroService {
+public interface LibroService {
 	
 	public void addctLibro (ctLibro obj_ctLibro);
 	

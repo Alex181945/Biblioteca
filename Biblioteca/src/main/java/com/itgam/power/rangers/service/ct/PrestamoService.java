@@ -1,6 +1,6 @@
 package com.itgam.power.rangers.service.ct;
 
-public interface ctPrestamoService {
+public interface PrestamoService {
 	
 	public void addctPrestamo (ctPrestamoo obj_ctPrestamo);
 	

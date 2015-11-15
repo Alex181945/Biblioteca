@@ -2,7 +2,7 @@ package com.itgam.power.rangers.dao.ct;
 
 import com.itgam.power.rangers.service.ct.ctEditorial;
 
-public interface ctEditorialDao {
+public interface EditorialDao {
 	
     public void addctEditorial (ctEditorial obj_ctEditorial);
 	

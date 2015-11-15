@@ -1,6 +1,6 @@
 package com.itgam.power.rangers.service.ct;
 
-public interface ctEmpleadoService {
+public interface EmpleadoService {
 
 	public void addctEmpleado (ctEmpleado obj_ctEmpleado);
 	

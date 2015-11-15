@@ -2,7 +2,7 @@ package com.itgam.power.rangers.dao.ct;
 
 import com.itgam.power.rangers.service.ct.ctLibro;
 
-public interface ctLibroDao {
+public interface LibroDao {
    
 	public void addctLibro (ctLibro obj_ctLibro);
 	

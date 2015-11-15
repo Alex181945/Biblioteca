@@ -2,7 +2,7 @@ package com.itgam.power.rangers.dao.impl.ct;
 
 import com.itgam.power.rangers.dao.ct.ctUsuario;
 
-public class ctUsuarioDaoImp {
+public class UsuarioDaoImp {
 
 	public void addctUsuario (ctUsuario obj_ctUsuario){
 		

@@ -2,7 +2,7 @@ package com.itgam.power.rangers.dao.impl.ct;
 
 import com.itgam.power.rangers.dao.ct.ctEditorial;
 
-public class ctEditorialDaoImp {
+public class EditorialDaoImp {
 
 	public void addctEditorial (ctEditorial obj_ctEditorial){
 		

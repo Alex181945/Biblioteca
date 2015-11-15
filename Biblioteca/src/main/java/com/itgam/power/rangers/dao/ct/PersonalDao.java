@@ -2,7 +2,7 @@ package com.itgam.power.rangers.dao.ct;
 
 import com.itgam.power.rangers.service.ct.ctPersonal;
 
-public interface ctPersonalDao {
+public interface PersonalDao {
 	
     public void addctPersonal (ctPersonal obj_ctPersonal);
 	

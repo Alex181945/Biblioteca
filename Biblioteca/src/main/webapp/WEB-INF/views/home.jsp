@@ -57,10 +57,6 @@
             <li><span><a href="#">Catalogos</a></span></li>
             <li><span><a href="#">Editoriales</a></span></li>
             <li><span><a href="#">Reportes</a></span></li>
-            <li><span><a href="#">Administrators</a></span></li>
-            <li><span><a href="#">Basic Information</a></span></li>
-            <li><span><a href="#">Vacancies</a></span></li>
-            <li class="last"><span><a href="#">Calendar</a></span></li>
          </ul>
          <form action="" id="newsletter-form">
             <fieldset>

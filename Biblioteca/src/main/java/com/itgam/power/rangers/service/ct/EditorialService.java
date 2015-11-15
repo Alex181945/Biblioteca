@@ -1,6 +1,6 @@
 package com.itgam.power.rangers.service.ct;
 
-public interface ctEditorialService {
+public interface EditorialService {
 	
 	public void addctEditorial (ctEditorial obj_ctEditorial);
 	
