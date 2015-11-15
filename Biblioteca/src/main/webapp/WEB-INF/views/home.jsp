@@ -30,13 +30,13 @@
    <!-- header -->
    <header>
       <div class="container">
-         <h1><a href="index.html">Student's site</a></h1>
+         <h1><a href="index.html">Biblioteca Online</a></h1>
          <nav>
             <ul>
-               <li class="current"><a href="index.html" class="m1">Home Page</a></li>
-               <li><a href="about-us.html" class="m2">About Us</a></li>
-               <li><a href="articles.html" class="m3">Our Articles</a></li>
-               <li><a href="contact-us.html" class="m4">Contact Us</a></li>
+               <li class="current"><a href="index.html" class="m1">Incio</a></li>
+               <li><a href="about-us.html" class="m2">Disponibilidad de Libros</a></li>
+               <li><a href="articles.html" class="m3">Usuarios Registrados</a></li>
+               <li><a href="contact-us.html" class="m4">Herramientas Administrativas</a></li>
             </ul>
          </nav>
          <form action="" id="search-form">
@@ -53,10 +53,10 @@
       <aside>
          <h3>Categories</h3>
          <ul class="categories">
-            <li><span><a href="#">Programs</a></span></li>
-            <li><span><a href="#">Student Info</a></span></li>
-            <li><span><a href="#">Teachers</a></span></li>
-            <li><span><a href="#">Descriptions</a></span></li>
+            <li><span><a href="#">Usuarios</a></span></li>
+            <li><span><a href="#">Catalogos</a></span></li>
+            <li><span><a href="#">Editoriales</a></span></li>
+            <li><span><a href="#">Reportes</a></span></li>
             <li><span><a href="#">Administrators</a></span></li>
             <li><span><a href="#">Basic Information</a></span></li>
             <li><span><a href="#">Vacancies</a></span></li>
