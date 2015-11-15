@@ -1,6 +1,6 @@
 package com.itgam.power.rangers.dao.ct;
 
-import com.itgam.power.rangers.service.ct.ctPersonal;
+import com.itgam.power.rangers.model.ctPersonal;
 
 public interface PersonalDao {
 	

@@ -1,6 +1,6 @@
 package com.itgam.power.rangers.dao.ct;
 
-import com.itgam.power.rangers.service.ct.ctLibro;
+import com.itgam.power.rangers.model.ctLibro;
 
 public interface LibroDao {
    

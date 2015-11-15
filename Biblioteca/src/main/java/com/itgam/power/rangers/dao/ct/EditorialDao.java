@@ -1,6 +1,6 @@
 package com.itgam.power.rangers.dao.ct;
 
-import com.itgam.power.rangers.service.ct.ctEditorial;
+import com.itgam.power.rangers.model.ctEditorial;
 
 public interface EditorialDao {
 	
