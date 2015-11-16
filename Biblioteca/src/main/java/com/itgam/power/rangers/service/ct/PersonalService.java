@@ -1,5 +1,7 @@
 package com.itgam.power.rangers.service.ct;
 
+import com.itgam.power.rangers.model.ctPersonal;
+
 public interface PersonalService {
 	
 	public void addctPersonal (ctPersonal obj_ctPersonal);

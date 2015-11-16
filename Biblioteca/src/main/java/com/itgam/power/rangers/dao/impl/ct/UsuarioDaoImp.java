@@ -1,6 +1,6 @@
 package com.itgam.power.rangers.dao.impl.ct;
 
-import com.itgam.power.rangers.dao.ct.ctUsuario;
+import com.itgam.power.rangers.model.ctUsuario;
 
 public class UsuarioDaoImp {
 
