@@ -3,7 +3,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>The Public-Library Website Template | Home :: w3layouts</title>
+<title>Biblioteca ITGAM</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
