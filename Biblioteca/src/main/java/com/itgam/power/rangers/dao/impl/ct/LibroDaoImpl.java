@@ -1,12 +1,11 @@
-package com.itgam.power.rangers.service.impl.ct;
+package com.itgam.power.rangers.dao.impl.ct;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
 
 import com.itgam.power.rangers.model.ctLibro;
-import com.itgam.power.rangers.service.ct.LibroService;
 
-@Service
-public class LibroServiceImpl implements LibroService {
+@Repository
+public class LibroDaoImpl {
 
 	public void addctLibro (ctLibro obj_ctLibro){
 		

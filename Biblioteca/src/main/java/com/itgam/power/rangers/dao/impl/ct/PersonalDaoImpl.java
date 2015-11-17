@@ -1,12 +1,11 @@
-package com.itgam.power.rangers.service.impl.ct;
+package com.itgam.power.rangers.dao.impl.ct;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
 
 import com.itgam.power.rangers.model.ctPersonal;
-import com.itgam.power.rangers.service.ct.PersonalService;
 
-@Service
-public class PersonalServiceImpl implements PersonalService {
+@Repository
+public class PersonalDaoImpl {
 
 	public void addctPersonal (ctPersonal obj_ctPersonal){
 		

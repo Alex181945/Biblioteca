@@ -1,8 +1,11 @@
 package com.itgam.power.rangers.dao.impl.ct;
 
+import org.springframework.stereotype.Repository;
+
 import com.itgam.power.rangers.model.ctUsuario;
 
-public class UsuarioDaoImp {
+@Repository
+public class UsuarioDaoImpl {
 
 	public void addctUsuario (ctUsuario obj_ctUsuario){
 		

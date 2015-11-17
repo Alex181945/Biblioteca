@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 import com.itgam.power.rangers.model.ctEditorial;
 
 @Repository
-public class EditorialDaoImp {
+public class EditorialDaoImpl {
 
 	public void addctEditorial (ctEditorial obj_ctEditorial){
 		
