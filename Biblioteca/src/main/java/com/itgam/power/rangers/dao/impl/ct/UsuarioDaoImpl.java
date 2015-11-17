@@ -50,7 +50,8 @@ public class UsuarioDaoImpl implements UsuarioDao {
 	}
 	
 	public void updatectUsuario (ctUsuario id_ctUsuario){
-		
+            
+            
 	}
 	
 	public void deletectUsuario (Integer id_ctUsuario){

@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import com.itgam.power.rangers.dao.ct.PersonalDao;
 import com.itgam.power.rangers.model.ctPersonal;
 import com.itgam.power.rangers.service.ct.PersonalService;
+import java.sql.*;
 
 @Service
 public class PersonalServiceImpl implements PersonalService {
@@ -13,7 +14,7 @@ public class PersonalServiceImpl implements PersonalService {
 	@Autowired
 	private PersonalDao personalDao;
 	
-	public void addctPersonal (ctPersonal obj_ctPersonal){
+	public void addctPersonal (ctPersonal obj_ctPersonal) throws SQLException{
 		personalDao.addctPersonal(obj_ctPersonal);
 	}
 	
