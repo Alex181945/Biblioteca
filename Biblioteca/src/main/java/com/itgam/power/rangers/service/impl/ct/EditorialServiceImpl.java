@@ -14,15 +14,15 @@ public class EditorialServiceImpl implements EditorialService {
 	private EditorialDao editorialDao;
 	
 	public void addctEditorial (ctEditorial obj_ctEditorial){
-		
+		editorialDao.addctEditorial(obj_ctEditorial);
 	}
 	
-	public void updatectEditorial (ctEditorial id_ctEditorial){
-		
+	public void updatectEditorial (ctEditorial obj_ctEditorial){
+		editorialDao.updatectEditorial(obj_ctEditorial);
 	}
 	
 	public void deletectEditorial (Integer id_ctEditorial){
-		
+		editorialDao.deletectEditorial(id_ctEditorial);
 	}
 	
 }

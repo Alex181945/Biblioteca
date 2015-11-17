@@ -14,11 +14,11 @@ public class PersonalServiceImpl implements PersonalService {
 	private PersonalDao personalDao;
 	
 	public void addctPersonal (ctPersonal obj_ctPersonal){
-		
+		personalDao.addctPersonal(obj_ctPersonal);
 	}
 	
-	public void updatectPersonal (ctPersonal id_ctPersonal){
-		
+	public void updatectPersonal (ctPersonal obj_ctPersonal){
+		personalDao.updatectPersonal(obj_ctPersonal);
 	}
 	
 	public void deletectPersonal (Integer id_ctPersonal){

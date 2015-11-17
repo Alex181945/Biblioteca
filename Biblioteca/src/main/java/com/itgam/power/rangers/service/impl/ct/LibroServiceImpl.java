@@ -14,14 +14,14 @@ public class LibroServiceImpl implements LibroService {
 	private LibroDao libroDao;
 	
 	public void addctLibro (ctLibro obj_ctLibro){
-		
+		libroDao.addctLibro(obj_ctLibro);
 	}
 	
-	public void updatectLibro (ctLibro id_ctLibro){
-		
+	public void updatectLibro (ctLibro obj_ctLibro){
+		libroDao.updatectLibro(obj_ctLibro);
 	}
 	
 	public void deletectLibro (Integer id_ctLibro){
-		
+		libroDao.deletectLibro(id_ctLibro);
 	}
 }
