@@ -26,9 +26,11 @@ public class UsuarioDaoImpl implements UsuarioDao {
 		ResultSet res = consulta.executeQuery("SELECT MAX(iUsuario)");
 		if(res.next()){
 			valorMaximo = res.getInt("iUsuario");
+			System.out.println("Este es el valor obtenido de la consulta: "+valorMaximo);
 		}
 		else{
 			valorMaximo = valorMaximo + 1;
+			System.out.println("Estet es el valor obtenido del else de la consulta: "+valorMaximo);
 		}
 		
 		/*Sentencia SQL*/
