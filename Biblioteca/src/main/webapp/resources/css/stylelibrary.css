@@ -375,7 +375,7 @@ body {
 	margin: 0.5em 0;
 }
 .terminals p:before{
-	content:url(../images/quotes_alt.png);
+	content:url(../image/quotes_alt.png);
 	padding-right:10px;
 }
 .terminals span{
