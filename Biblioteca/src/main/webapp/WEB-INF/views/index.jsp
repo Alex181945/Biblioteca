@@ -28,12 +28,12 @@
 		</div>
 		<div class="social-icons">
 			<ul>
-			     <li><a class="facebook" href="#" target="_blank"> </a></li>
-			     <li><a class="twitter" href="#" target="_blank"></a></li>
-			     <li><a class="googleplus" href="#" target="_blank"></a></li>
-			     <li><a class="pinterest" href="#" target="_blank"></a></li>
-			     <li><a class="dribbble" href="#" target="_blank"></a></li>
-			     <li><a class="vimeo" href="#" target="_blank"></a></li>
+			     <li><a class="facebook" href="https://es-la.facebook.com/" target="_blank"> </a></li>
+			     <li><a class="twitter" href="https://twitter.com/?lang=es" target="_blank"></a></li>
+			     <li><a class="googleplus" href="https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dgplp0#identifier" target="_blank"></a></li>
+			     <li><a class="pinterest" href="https://es.pinterest.com/" target="_blank"></a></li>
+			     <li><a class="dribbble" href="https://dribbble.com/" target="_blank"></a></li>
+			     <li><a class="vimeo" href="https://vimeo.com/" target="_blank"></a></li>
 		   </ul>
 		</div>	
 		<div class="clear"></div>
@@ -41,11 +41,11 @@
 	<div class='h_btm'>
 		<div class='cssmenu'>
 			<ul>
-			    <li class='active'><a href='index.html'><span>Home</span></a></li>
-			    <li><a href='about.html'><span>About</span></a></li>
+			    <li class='active'><a href='index.html'><span>Inicio</span></a></li>
+			    <li><a href='about.html'><span>Nosotros</span></a></li>
 			    <li><a href='staff.html'><span>Staff</span></a></li>
-			    <li class='has-sub'><a href='service.html'><span>Services</span></a></li>
-			    <li class='last'><a href='contact.html'><span>Contact</span></a></li>
+			    <li class='has-sub'><a href='service.html'><span>Servicios</span></a></li>
+			    <li class='last'><a href='contact.html'><span>Registrate</span></a></li>
 			 	<div class="clear"></div>
 			 </ul>
 	</div>
@@ -67,9 +67,9 @@
 		  <div class="slider">
 	      	<div class="slider-wrapper theme-default">
 	            <div id="slider" class="nivoSlider">
-	                <img src="resources/image/banner1.jpg" data-thumb="web/images/1.jpg" alt="" />
-	                <img src="resources/image/banner2.jpg" data-thumb="web/images/2.jpg" alt="" />
-	                <img src="resources/image/banner3.jpg" data-thumb="web/images/3.jpg" alt="" />
+	                <img src="resources/image/banner1.jpg" data-thumb="resources/image/1.jpg" alt="" />
+	                <img src="resources/image/banner2.jpg" data-thumb="resources/image/2.jpg" alt="" />
+	                <img src="resources/image/banner3.jpg" data-thumb="resources/image/3.jpg" alt="" />
 	            </div>
 	        </div>
 	      </div>
