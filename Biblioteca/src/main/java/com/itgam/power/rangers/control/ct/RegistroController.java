@@ -50,6 +50,7 @@ public class RegistroController {
 		obj_ctUsuario.setcEstado("DF");
 		obj_ctUsuario.setcEmail("alestra55@hotmail.com");
 		//obj_ctUsuario.setdtFechaNac("2015/11/17 00:00:00.000000"); Estoy agregando un mensaje para verificar cambios
+                //cambios exitosos
 		obj_ctUsuario.setlSexo(true);
 		obj_ctUsuario.setcUsuario("alex");
 		obj_ctUsuario.setcPassword("123");
