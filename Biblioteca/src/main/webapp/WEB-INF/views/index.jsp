@@ -79,6 +79,7 @@
 					  <img src="resources/image/icon1.jpg">
 					  <h3>Préstamo en Sala</h3>
 					  <p>Se refiere a la consulta que todo usuario puede hacer en las salas de lectura de cada piso, tomando directamente el material de la estantería, excepto el caso de tesis, publicaciones periódicas, colecciones especiales y videos, libros de bellas artes y arquitectura, las cuales podrán consultarse llenando los formularios disponibles en el área correspondiente.
+
 Los usuarios podrán tener sobre las mesas de servicio un máximo de tres obras a la vez. 
 					  </p>
 				</div>
@@ -86,6 +87,7 @@ Los usuarios podrán tener sobre las mesas de servicio un máximo de tres obras a 
 					  <img src="resources/image/icon2.jpg">
 					  <h3>Renovacion</h3>
 					  <p>Al vencimiento del préstamo de los libros los usuarios tienen derecho a prorrogarlo por dos periodos más de siete días naturales cada uno.
+
 La condición para ello es hacer la renovación del préstamo exactamente los días de vencimiento, este procedimiento puede realizarse vía internet, telefónica, a través del módulo de autopréstamo o bien de manera presencial en el mostrador de servicios.</p>
 				</div>
 				<div class="grid_1_of_3 images_1_of_3">
@@ -104,7 +106,7 @@ Este servicio permite a los usuarios tener acceso a 174 bases de datos referenci
 <div class="main">
 	<div class="content">
 		<h2>Campaña contra el Cancer de Mama</h2>
-		<h3>El dia Rosa</h3>
+		<h3>El dia Rosa con La SR. Claudia Nigo</h3>
 		<p><a href="details.html"><img src="resources/image/lizmama.jpg"></a> En las mujeres que pierdan el miedo y tomen conciencia de la importancia de tomarse un tiempo, al menos una vez al año, para realizarse un chequeo preventivo de mama. La Liga Contra el Cáncer pone a su disposición sus Unidades Móviles las cuales podrán visitar a todas las empresas peruanas para que sus colaboradores y/o trabajadores se realicen un despistaje preventivo de mama a través de una donación.  Es importante señalar que cada chequeo preventivo en empresas, permitirá a la institución realizar otro despistaje de mama de manera gratuita en zonas menos favorecidas.</p>
 		<div class="clear"></div>
 	</div>
@@ -114,7 +116,7 @@ Este servicio permite a los usuarios tener acceso a 174 bases de datos referenci
 	<div class="wrap">
 		 <div class="main">
 					<div class="gallery">
-						<h3>Our latest projects</h3>
+						<h3>Proyectos reconocidos por la Biblioteca</h3>
 						<ul>
 							<li><a href="resources/image/gallery1.jpg"><img src="resources/image/gallery1.jpg" alt=""></a><a href="#"></a></li>
 							<li><a href="resources/image/gallery2.jpg"><img src="resources/image/gallery2.jpg" alt=""></a><a href="#"></a></li>
@@ -134,10 +136,11 @@ Este servicio permite a los usuarios tener acceso a 174 bases de datos referenci
 				    });
 				    </script>
 					<div class="terminals">
-						<h3>Testimonials</h3>
-						<p>sed tempor ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt aliqua. Ut enim ad minim veniam,consectetur adipisicing elit,sed do eiusmod tempor incididunt magna aliqua. </p>
-						<p>sed tempor Ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt aliqua. Ut enim ad minim veniam,consectetur adipisicing elit,sed do eiusmod tempor incididunt magna aliqua. </p>
-						<span><a href="#">- Lorem ipsum</a> USA.</span>
+						<h3>Servicio de Documentación</h3>
+						<p>Es un servicio que consiste en la localización y recuperación de documentos nacionales y extranjeros tales como: artículos de publicaciones periódicas, capítulos o secciones de libros, ponencias presentadas en congresos, patentes nacionales e internacionales, informes o reportes técnicos, tesis, y otros. 
+ </p>
+						<p>Esta diseñado para apoyar la investigación, la docencia y la extensión de la cultura y está disponible tanto para la comunidad universitaria como para el público en general </p>
+						<span><a href="#">- Ing. Alejandro Mares, Ing. Juan Pulido, Ing. Alberto Robles</a> Mexico City.</span>
 					</div>
 					<div class="clear"> </div>
 		</div>
@@ -148,33 +151,34 @@ Este servicio permite a los usuarios tener acceso a 174 bases de datos referenci
 <div class="wrap">
 <div class="footer">
   <div class="box1">
-	<h4 class="btm">What We Do</h4>
-	<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. ions from the 1914 below for those  by H. Rackham</p>
-	<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those The standard chunk of Lorem Ipsum used since the 1500s is reproduced reproduced</p>
+	<h4 class="btm">Que hacemos</h4>
+	<p>Se brinda servicios en linea y virtual como prestamos, se cuenta con el servicio a personas discapacitadas, contamos con nuevas adquisiciones contamos con sugerenias blibliograficas fotocopiado, entre otras cosas mas visitanos.  </p>
   </div>
    <div class="box1">
-	<h4 class="btm">Categories</h4>
+	<h4 class="btm">Colecciones</h4>
 	<nav>
 		<ul>
-			<li><a href="">The standard chunk of Lorem Ipsum used since </a></li>
-			<li><a href="">Duis a augue ac libero euismod viverra sitth</a></li>
-			<li><a href="">Duis a augue ac libero euismod viverra sit </a></li>
-			<li><a href="">The standard chunk of Lorem Ipsum used since </a></li>
-			<li><a href="">Duis a augue ac libero euismod viverra sit </a></li>
-			<li><a href="">The standard chunk of Lorem Ipsum used since </a></li>
-			<li><a href="">Duis a augue ac libero euismod viverra sit </a></li>
+			<li><a href="">Obras de consultas, </a></li> 
+			<li><a href="">Fondo antiguo,</a></li>
+			<li><a href="">Colecciones especiales, </a></li>
+			<li><a href="">Coleccion general, </a></li>
+			<li><a href="">Tesis, </a></li>
+			<li><a href="">Publicaciones Periodicas,</a></li>
+			<li><a href="">Base de datos, </a></li>
 	    </ul>
 	</nav>
 	</div>
 	<div class="box1">
-		<h4 class="btm">Get in touch</h4>
+		<h4 class="btm">Direccion de la Bibioteca</h4>
 		<div class="box1_address">
-			<p>500 Lorem Ipsum Dolor Sit,</p>
-			<p>22-56-2-9 Sit Amet, Lorem,</p>
-			<p>USA</p>
-			<p>Phone:(00) 222 666 444</p>
-			<p>Fax: (000) 000 00 00 0</p>
-			<p>Email: <span>info(at)mycompany.com</span></p>
+		
+			<p>Calle 608 y Av. 412 No. 300 Unidad San Juan de Aragon,</p>
+			<p>Delegacion Gustavo A. Madero,</p>
+			<p>Distrito Federal</p>
+			<p>C.P. 07470</p>
+			<p>Phone: (55) 26-51-62-75</p>
+			<p>Fax: (000) 000 00 00 0 </p>
+			<p>Email: <span>Mocosoft@gmail.com</span>,
 			<p>Follow on: <span>Facebook</span>, <span>Twitter</span></p>
 		</div>
 	</div>
@@ -187,7 +191,8 @@ Este servicio permite a los usuarios tener acceso a 174 bases de datos referenci
 	<div class="wrap">
 		<div class="footer">
 		<div class="copy">
-			<p class="w3-link">© All Rights Reserved | Design by&nbsp; <a href="http://w3layouts.com/"> W3Layouts</a></p>
+			<p class="w3-link">Hecho en México, INSTITUTO TECNOLOGICO DE LA GUSTAVO A. MADERO (ITGAM), todos los derechos reservados 2009. Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere permiso previo por escrito de la institución.
+			 <a href="http://w3layouts.com/">  Copyright © 1995-2015 eBay Inc. Todos los derechos reservados. Condiciones de uso, Privacidad, Cookies y AdChoice.</a></p>
 		</div>
 		<div class="clear"></div>	
 	</div>
