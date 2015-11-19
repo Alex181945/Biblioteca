@@ -79,7 +79,6 @@
 					  <img src="resources/image/icon1.jpg">
 					  <h3>Préstamo en Sala</h3>
 					  <p>Se refiere a la consulta que todo usuario puede hacer en las salas de lectura de cada piso, tomando directamente el material de la estantería, excepto el caso de tesis, publicaciones periódicas, colecciones especiales y videos, libros de bellas artes y arquitectura, las cuales podrán consultarse llenando los formularios disponibles en el área correspondiente.
-
 Los usuarios podrán tener sobre las mesas de servicio un máximo de tres obras a la vez. 
 					  </p>
 				</div>
@@ -107,7 +106,7 @@ Este servicio permite a los usuarios tener acceso a 174 bases de datos referenci
 	<div class="content">
 		<h2>Campaña contra el Cancer de Mama</h2>
 		<h3>El dia Rosa</h3>
-		<p><a href="details.html"><img src="resources/image/pic1.jpg"></a> En las mujeres que pierdan el miedo y tomen conciencia de la importancia de tomarse un tiempo, al menos una vez al año, para realizarse un chequeo preventivo de mama. La Liga Contra el Cáncer pone a su disposición sus Unidades Móviles las cuales podrán visitar a todas las empresas peruanas para que sus colaboradores y/o trabajadores se realicen un despistaje preventivo de mama a través de una donación.  Es importante señalar que cada chequeo preventivo en empresas, permitirá a la institución realizar otro despistaje de mama de manera gratuita en zonas menos favorecidas.</p>
+		<p><a href="details.html"><img src="resources/image/lizmama.jpg"></a> En las mujeres que pierdan el miedo y tomen conciencia de la importancia de tomarse un tiempo, al menos una vez al año, para realizarse un chequeo preventivo de mama. La Liga Contra el Cáncer pone a su disposición sus Unidades Móviles las cuales podrán visitar a todas las empresas peruanas para que sus colaboradores y/o trabajadores se realicen un despistaje preventivo de mama a través de una donación.  Es importante señalar que cada chequeo preventivo en empresas, permitirá a la institución realizar otro despistaje de mama de manera gratuita en zonas menos favorecidas.</p>
 		<div class="clear"></div>
 	</div>
 </div>
