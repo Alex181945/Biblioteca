@@ -86,7 +86,6 @@ Los usuarios podrán tener sobre las mesas de servicio un máximo de tres obras a 
 					  <img src="resources/image/icon2.jpg">
 					  <h3>Renovacion</h3>
 					  <p>Al vencimiento del préstamo de los libros los usuarios tienen derecho a prorrogarlo por dos periodos más de siete días naturales cada uno.
-
 La condición para ello es hacer la renovación del préstamo exactamente los días de vencimiento, este procedimiento puede realizarse vía internet, telefónica, a través del módulo de autopréstamo o bien de manera presencial en el mostrador de servicios.</p>
 				</div>
 				<div class="grid_1_of_3 images_1_of_3">
