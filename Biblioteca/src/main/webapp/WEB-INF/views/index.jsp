@@ -77,18 +77,24 @@
 		<div class="grids_1_of_3">
 				<div class="grid_1_of_3 images_1_of_3">
 					  <img src="resources/image/icon1.jpg">
-					  <h3>Lorem Ipsum is simply</h3>
-					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur.</p>
+					  <h3>Préstamo en Sala</h3>
+					  <p>Se refiere a la consulta que todo usuario puede hacer en las salas de lectura de cada piso, tomando directamente el material de la estantería, excepto el caso de tesis, publicaciones periódicas, colecciones especiales y videos, libros de bellas artes y arquitectura, las cuales podrán consultarse llenando los formularios disponibles en el área correspondiente.
+
+Los usuarios podrán tener sobre las mesas de servicio un máximo de tres obras a la vez. 
+					  </p>
 				</div>
 				<div class="grid_1_of_3 images_1_of_3">
 					  <img src="resources/image/icon2.jpg">
-					  <h3>Lorem Ipsum is simply</h3>
-					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur.</p>
+					  <h3>Renovacion</h3>
+					  <p>Al vencimiento del préstamo de los libros los usuarios tienen derecho a prorrogarlo por dos periodos más de siete días naturales cada uno.
+
+La condición para ello es hacer la renovación del préstamo exactamente los días de vencimiento, este procedimiento puede realizarse vía internet, telefónica, a través del módulo de autopréstamo o bien de manera presencial en el mostrador de servicios.</p>
 				</div>
 				<div class="grid_1_of_3 images_1_of_3">
 					  <img src="resources/image/icon3.jpg">
-					  <h3>Lorem Ipsum is simply</h3>
-					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur.</p>
+					  <h3>Base de datos</h3>
+					  <p>
+Este servicio permite a los usuarios tener acceso a 174 bases de datos referenciales y de texto completo que la Universidad ha adquirido y algunas producidas por la propia Universidad para apoyar el desarrollo académico, docente y de investigación de su comunidad. </p>
 				</div>
 				<div class="clear"></div>
 			</div>
@@ -99,9 +105,9 @@
 <div class="wrap">
 <div class="main">
 	<div class="content">
-		<h2>what our customer says</h2>
-		<h3>Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
-		<p><a href="details.html"><img src="resources/image/pic1.jpg"></a> Cadipisicing elit,Nam ornare vulputate risus,id volutpat elit porttitor non.In consequat nisi vel lectus dapibus sodales.Nam ornare vulputate risus, id volutpat elit porttitor non. In consequat nisi vel lectus dapibus sodales.Nam ornare vulputate risus, id volutpat elit porttitor non. In consequat nisi vel lectus dapibus sodales.Nam ornare vulputate risus, id volutpat elit porttitor non. In consequat nisi vel lectus dapibus sodales. Pellentesque habitant morbi tristique senectus Nam ornare vulputate risus, id volutpat elit porttitor non. In consequat nisi vel lectus dapibus sodales. PellentesqueNam ornare vulputate risus, id volutpat elit porttitor non. In consequat nisi vel lectus dapibus sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas Pellentesque habitant morbi tristique senectus et netus et malesuada fames. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Nam ornare vulputate risus,id volutpat elit porttitor non. In consequat nisi vel lectus dapibus sodales.Nam ornare vulputate risus, id volutpat elit porttitor non.</p>
+		<h2>Campaña contra el Cancer de Mama</h2>
+		<h3>El dia Rosa</h3>
+		<p><a href="details.html"><img src="resources/image/pic1.jpg"></a> En las mujeres que pierdan el miedo y tomen conciencia de la importancia de tomarse un tiempo, al menos una vez al año, para realizarse un chequeo preventivo de mama. La Liga Contra el Cáncer pone a su disposición sus Unidades Móviles las cuales podrán visitar a todas las empresas peruanas para que sus colaboradores y/o trabajadores se realicen un despistaje preventivo de mama a través de una donación.  Es importante señalar que cada chequeo preventivo en empresas, permitirá a la institución realizar otro despistaje de mama de manera gratuita en zonas menos favorecidas.</p>
 		<div class="clear"></div>
 	</div>
 </div>
