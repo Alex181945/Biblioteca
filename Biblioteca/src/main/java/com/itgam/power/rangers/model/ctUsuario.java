@@ -1,6 +1,5 @@
 package com.itgam.power.rangers.model;
 
-import java.sql.Timestamp;
 
 public class ctUsuario {
 
@@ -14,7 +13,7 @@ public class ctUsuario {
 	private String cCP;
 	private String cEstado;
 	private String cEmail;
-	private Timestamp dtFechaNac;
+	private String dtFechaNac;
 	private Boolean lSexo;
 	private String cUsuario;
 	private String cPassword;
@@ -81,10 +80,10 @@ public class ctUsuario {
 	public void setcEmail(String cEmail) {
 		this.cEmail = cEmail;
 	}
-	public Timestamp getDtFechaNac() {
+	public String getDtFechaNac() {
 		return dtFechaNac;
 	}
-	public void setDtFechaNac(Timestamp dtFechaNac) {
+	public void setDtFechaNac(String dtFechaNac) {
 		this.dtFechaNac = dtFechaNac;
 	}
 	public Boolean getlSexo() {
@@ -117,5 +116,4 @@ public class ctUsuario {
 	public void setcObs(String cObs) {
 		this.cObs = cObs;
 	}
-	
 }

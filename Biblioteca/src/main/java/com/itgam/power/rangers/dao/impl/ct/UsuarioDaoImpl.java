@@ -18,14 +18,19 @@ public class UsuarioDaoImpl implements UsuarioDao {
 		DBConexion conexion = new DBConexion();
 		Connection inicio = conexion.GetConnection();
 		
+		try{
 		/*Creacion de la variable que almacenara la sentencia SQL*/
 		Statement consulta = inicio.createStatement();
 		
 		/*Hacer autoincremental el ID*/
 		Integer valorMaximo = 0;
-		ResultSet res = consulta.executeQuery("SELECT MAX(iUsuario)");
+		/*consulta.execute("SELECT MAX(iUsuario) FROM ctUsuario;");
+		ResultSet res = consulta.getResultSet();*/
+		ResultSet res = consulta.executeQuery("SELECT MAX(iUsuario) FROM ctUsuario");
+		System.out.println("Pasa de la sentencia");
 		if(res.next()){
-			valorMaximo = res.getInt("iUsuario");
+			System.out.println(res.getInt(1));
+			valorMaximo = res.getInt(1) + 1;
 			System.out.println("Este es el valor obtenido de la consulta: "+valorMaximo);
 		}
 		else{
@@ -36,17 +41,24 @@ public class UsuarioDaoImpl implements UsuarioDao {
 		/*Sentencia SQL*/
 		String sentencia = null;
 		
-		sentencia = "INSERT INTO ctUsuario VALUES ("+valorMaximo+","+obj_ctUsuario.getcNombre()+","
-				+ ""+obj_ctUsuario.getcApellidos()+","+obj_ctUsuario.getcCalle()+","+obj_ctUsuario.getcNumExterior()+","+obj_ctUsuario.getcNumInterior()+","
-						+ ""+obj_ctUsuario.getcColonia()+","+obj_ctUsuario.getcCP()+","+obj_ctUsuario.getcEstado()+","+obj_ctUsuario.getcEmail()+","
-								+ ""+obj_ctUsuario.getDtFechaNac()+","+obj_ctUsuario.getlEstatus()+","+obj_ctUsuario.getcUsuario()+","+obj_ctUsuario.getcPassword()+","
-										+ ""+obj_ctUsuario.getcObs()+")";
+		sentencia = "INSERT INTO ctUsuario VALUES ("+valorMaximo+","
+				+ "\""+obj_ctUsuario.getcNombre()+"\",\""+obj_ctUsuario.getcApellidos()+"\","
+						+ "\""+obj_ctUsuario.getcCalle()+"\",\""+obj_ctUsuario.getcNumExterior()+"\","
+								+ "\""+obj_ctUsuario.getcNumInterior()+"\",\""+obj_ctUsuario.getcColonia()+"\","
+										+ "\""+obj_ctUsuario.getcCP()+"\",\""+obj_ctUsuario.getcEstado()+"\",\""+obj_ctUsuario.getcEmail()+"\","
+												+ "\'"+Timestamp.valueOf(obj_ctUsuario.getDtFechaNac()+" 00:00:00.000000")+"\',"+obj_ctUsuario.getlSexo()+","
+														+ "\""+obj_ctUsuario.getcUsuario()+"\",\""+obj_ctUsuario.getcPassword()+"\","+true+",\""+obj_ctUsuario.getcObs()+"\")";
 		System.out.println(sentencia);
 		
 		consulta.execute(sentencia);
-		
-		/*Terminando conexion con la base de datos*/
-		inicio.close();
+		}catch(Exception e){
+			System.out.println("No hubo exito "+e);
+		}
+		finally{
+			/*Terminando conexion con la base de datos*/
+			System.out.println("Termina conexion");
+			inicio.close();	
+		}
 	}
 	
 	public void updatectUsuario (ctUsuario id_ctUsuario){
