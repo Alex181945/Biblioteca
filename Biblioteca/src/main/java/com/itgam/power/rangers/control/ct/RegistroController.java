@@ -38,25 +38,7 @@ public class RegistroController {
 	@RequestMapping(value = "/itgam/registro/usuario", method = RequestMethod.POST)
 	public String home(@ModelAttribute("ctUsuario") ctUsuario obj_ctUsuario) throws SQLException {
 		
-		/*Prueba*/
-		
-		obj_ctUsuario.setcNombre("Alex");
-		obj_ctUsuario.setcApellidos("Estrada");
-		obj_ctUsuario.setcCalle("AS");
-		obj_ctUsuario.setcNumExterior("67");
-		obj_ctUsuario.setcNumInterior("2");
-		obj_ctUsuario.setcColonia("Vallejo");
-		obj_ctUsuario.setcCP("07870");
-		obj_ctUsuario.setcEstado("DF");
-		obj_ctUsuario.setcEmail("alestra55@hotmail.com");
-		obj_ctUsuario.setDtFechaNac(Timestamp.valueOf("2015/11/17 12:01:00.000000"));
-		obj_ctUsuario.setlSexo(true);
-		obj_ctUsuario.setcUsuario("alex");
-		obj_ctUsuario.setcPassword("123");
-		obj_ctUsuario.setlEstatus(true);
-		obj_ctUsuario.setcObs("XD");
-		/*Elimar en cuanto deje de ser funcional*/
 		usuarioService.addctUsuario(obj_ctUsuario);
-		return "inicioSistema";
+		return "redirect:/itgam/registro";
 	}
 }

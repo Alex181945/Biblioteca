@@ -45,7 +45,7 @@
 			    <li><a href='about.html'><span>Nosotros</span></a></li>
 			    <li><a href='staff.html'><span>Staff</span></a></li>
 			    <li class='has-sub'><a href='service.html'><span>Servicios</span></a></li>
-			    <li class='last'><a href='contact.html'><span>Registrate</span></a></li>
+			    <li class='last'><a href='registrate'><span>Registrate</span></a></li>
 			 	<div class="clear"></div>
 			 </ul>
 	</div>
