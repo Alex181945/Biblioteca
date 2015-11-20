@@ -41,8 +41,8 @@
 	<div class='h_btm'>
 		<div class='cssmenu'>
 			<ul>
-			    <li class='active'><a href='index.html'><span>Inicio</span></a></li>
-			    <li><a href='about.html'><span>Nosotros</span></a></li>
+			    <li class='active'><a href='http://localhost:8080/power/'><span>Inicio</span></a></li>
+			    <li><a href='nosotros'><span>Nosotros</span></a></li>
 			    <li><a href='staff.html'><span>Staff</span></a></li>
 			    <li class='has-sub'><a href='service.html'><span>Servicios</span></a></li>
 			    <li class='last'><a href='registrate'><span>Registrate</span></a></li>

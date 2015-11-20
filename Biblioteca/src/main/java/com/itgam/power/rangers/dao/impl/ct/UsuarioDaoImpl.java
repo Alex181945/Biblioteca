@@ -79,8 +79,9 @@ public class UsuarioDaoImpl implements UsuarioDao {
 		try{
 		/*Creacion de la variable que almacenara la sentencia SQL*/
 		Statement consulta = inicio.createStatement();
-		ResultSet res = consulta.executeQuery("SELECT * FROM ctUsuario WHERE iUsuario = \""+obj_ctUsuario.getcUsuario()+"\" AND cPassword = \""+obj_ctUsuario.getcPassword()+"\";");
+		ResultSet res = consulta.executeQuery("SELECT * FROM ctUsuario WHERE cUsuario = \""+obj_ctUsuario.getcUsuario()+"\" AND cPassword = \""+obj_ctUsuario.getcPassword()+"\";");
 		respuesta = res.next();
+		System.out.println(respuesta);
 		}catch(Exception e){
 			System.out.println("No hubo exito "+e);
 		}
@@ -89,7 +90,7 @@ public class UsuarioDaoImpl implements UsuarioDao {
 			System.out.println("Termina conexion");
 			inicio.close();	
 		}
-		
+		System.out.println(respuesta);
 		return respuesta;
 	}
 }

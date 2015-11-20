@@ -43,9 +43,16 @@ private static final Logger logger = LoggerFactory.getLogger(HomeController.clas
 	
 	@RequestMapping(value = "/itgam/login", method = RequestMethod.POST)
 	public String sistemaLogin(@ModelAttribute("ctUsuario") ctUsuario obj_ctUsuario) throws SQLException {
-		if(usuarioService.loginctUsuario(obj_ctUsuario).equals(false)){
+		System.out.println(obj_ctUsuario.getcUsuario()+" "+obj_ctUsuario.getcPassword());
+		Boolean respuesta = usuarioService.loginctUsuario(obj_ctUsuario);
+		if(respuesta.equals(false)){
 			return "redirect:/itgam";
 		}
+		return "redirect:/biblioteca";
+	}
+	
+	@RequestMapping(value = "/biblioteca", method = RequestMethod.GET)
+	public String inicio(Locale locale, Model model) {
 		return "inicioSistema";
 	}
 }
