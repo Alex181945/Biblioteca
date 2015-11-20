@@ -38,7 +38,7 @@ public class PersonalDaoImpl implements PersonalDao {
 			/*Sentencia SQL*/
 			String sentencia = null;
 			
-			sentencia = "INSERT INTO ctUsuario VALUES ("+valorMaximo+","
+			sentencia = "INSERT INTO ctPersonal VALUES ("+valorMaximo+","
 					+ "\""+obj_ctPersonal.getcNombre()+"\",\""+obj_ctPersonal.getcApellidos()+"\","
 							+ "\""+obj_ctPersonal.getcCalle()+"\",\""+obj_ctPersonal.getcNumExterior()+"\","
 									+ "\""+obj_ctPersonal.getcNumInterior()+"\",\""+obj_ctPersonal.getcColonia()+"\","

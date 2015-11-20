@@ -43,7 +43,7 @@ public class EditorialDaoImpl implements EditorialDao {
 			/*Sentencia SQL*/
 			String sentencia = null;
 			
-			sentencia = "INSERT INTO ctUsuario VALUES ("+valorMaximo+","
+			sentencia = "INSERT INTO ctEditorial VALUES ("+valorMaximo+","
 					+ "\""+obj_ctEditorial.getiEditorial()+"\",\""+obj_ctEditorial.getcEditorial()+"\","
 							+ "\""+obj_ctEditorial.getlEstatus()+"\",\""+obj_ctEditorial.getcObs()+"\")";
 			System.out.println(sentencia);
