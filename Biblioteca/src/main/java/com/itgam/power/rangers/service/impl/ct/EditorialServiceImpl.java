@@ -1,5 +1,7 @@
 package com.itgam.power.rangers.service.impl.ct;
 
+import java.sql.SQLException;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +15,7 @@ public class EditorialServiceImpl implements EditorialService {
 	@Autowired
 	private EditorialDao editorialDao;
 	
-	public void addctEditorial (ctEditorial obj_ctEditorial){
+	public void addctEditorial (ctEditorial obj_ctEditorial) throws SQLException{
 		editorialDao.addctEditorial(obj_ctEditorial);
 	}
 	

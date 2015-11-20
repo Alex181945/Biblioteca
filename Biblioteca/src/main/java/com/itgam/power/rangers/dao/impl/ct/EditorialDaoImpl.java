@@ -2,6 +2,7 @@ package com.itgam.power.rangers.dao.impl.ct;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Timestamp;
 
@@ -14,7 +15,7 @@ import com.itgam.power.rangers.util.DBConexion;
 @Repository
 public class EditorialDaoImpl implements EditorialDao {
 
-	public void addctEditorial (ctEditorial obj_ctEditorial){
+	public void addctEditorial (ctEditorial obj_ctEditorial) throws SQLException{
 		 /*Conexion a la base de datos*/
 		DBConexion conexion = new DBConexion();
 		Connection inicio = conexion.GetConnection();
