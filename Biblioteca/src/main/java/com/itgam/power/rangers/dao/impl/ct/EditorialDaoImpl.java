@@ -1,5 +1,6 @@
 package com.itgam.power.rangers.dao.impl.ct;
 
+import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.sql.Timestamp;
@@ -8,11 +9,15 @@ import org.springframework.stereotype.Repository;
 
 import com.itgam.power.rangers.dao.ct.EditorialDao;
 import com.itgam.power.rangers.model.ctEditorial;
+import com.itgam.power.rangers.util.DBConexion;
 
 @Repository
 public class EditorialDaoImpl implements EditorialDao {
 
 	public void addctEditorial (ctEditorial obj_ctEditorial){
+		 /*Conexion a la base de datos*/
+		DBConexion conexion = new DBConexion();
+		Connection inicio = conexion.GetConnection();
 		
 		try{
 			/*Creacion de la variable que almacenara la sentencia SQL*/
