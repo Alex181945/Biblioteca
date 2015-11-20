@@ -61,12 +61,35 @@ public class UsuarioDaoImpl implements UsuarioDao {
 		}
 	}
 	
-	public void updatectUsuario (ctUsuario id_ctUsuario){
+	public void updatectUsuario (ctUsuario obj_ctUsuario){
             
             
 	}
 	
 	public void deletectUsuario (Integer id_ctUsuario){
 		
+	}
+	
+	public Boolean loginctUsuario (ctUsuario obj_ctUsuario) throws SQLException{
+		
+		/*Conexion a la base de datos*/
+		DBConexion conexion = new DBConexion();
+		Connection inicio = conexion.GetConnection();
+		Boolean respuesta = false;
+		try{
+		/*Creacion de la variable que almacenara la sentencia SQL*/
+		Statement consulta = inicio.createStatement();
+		ResultSet res = consulta.executeQuery("SELECT * FROM ctUsuario WHERE iUsuario = \""+obj_ctUsuario.getcUsuario()+"\" AND cPassword = \""+obj_ctUsuario.getcPassword()+"\";");
+		respuesta = res.next();
+		}catch(Exception e){
+			System.out.println("No hubo exito "+e);
+		}
+		finally{
+			/*Terminando conexion con la base de datos*/
+			System.out.println("Termina conexion");
+			inicio.close();	
+		}
+		
+		return respuesta;
 	}
 }

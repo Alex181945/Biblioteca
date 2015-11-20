@@ -11,4 +11,6 @@ public interface UsuarioService {
 	public void updatectUsuario (ctUsuario id_ctUsuario);
 	
 	public void deletectUsuario (Integer id_ctUsuario);
+	
+	public Boolean loginctUsuario (ctUsuario obj_ctUsuario) throws SQLException;
 }
