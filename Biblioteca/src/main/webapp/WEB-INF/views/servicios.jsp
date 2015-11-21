@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
-<link href="resources/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="resources/css/stylelibrary.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
 <div class="btm_border">
@@ -15,7 +15,7 @@
 <div class="wrap">
 	<div class="header">
 		<div class="logo">
-			<h1><a href="index.html"><img src="resources/image/logo.png" alt=""></a></h1>
+			<h1><a href=""><img src="resources/image/logo.png" alt=""></a></h1>
 		</div>
 		<div class="social-icons">
 			<ul>
@@ -32,9 +32,11 @@
 	<div class='h_btm'>
 		<div class='cssmenu'>
 			<ul>
-			     <li class='active'><a href='index.html'><span>Inicio</span></a></li>
+				<li><a href='http://localhost:8080/power/'><span>Inicio</span></a></li>
+			    <li><a href='nosotros'><span>Nosotros</span></a></li>
+			    <li class='active'><a href='servicios'><span>Servicios</span></a></li>
+			    <li class='last'><a href='registrate'><span>Registrate</span></a></li>
 			 	<div class="clear"></div>
-
 			 </ul>
 	</div>
 	<div class="search">

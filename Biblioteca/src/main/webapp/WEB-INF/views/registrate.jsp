@@ -16,7 +16,7 @@
 <div class="wrap">
 	<div class="header">
 		<div class="logo">
-			<h1><a href="index"><img src="resources/image/logo.png" alt=""></a></h1>
+			<h1><a href=""><img src="resources/image/logo.png" alt=""></a></h1>
 		</div>
 		<div class="social-icons">
 			<ul>
@@ -35,8 +35,7 @@
 			<ul>
 			    <li class='last'><a href='http://localhost:8080/power/'><span>Inicio</span></a></li>
 			    <li><a href='nosotros'><span>Nosotros</span></a></li>
-			    <li><a href='staff.html'><span>Staff</span></a></li>
-			    <li class='has-sub'><a href='service.html'><span>Servicios</span></a></li>
+			    <li class='has-sub'><a href='servicios'><span>Servicios</span></a></li>
 			    <li class='active'><a href='registrate'><span>Registrate</span></a></li>
 			 	<div class="clear"></div>
 			 </ul>
