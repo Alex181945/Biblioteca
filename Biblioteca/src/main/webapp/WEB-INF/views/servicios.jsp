@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="resources/css/style.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
 <div class="btm_border">
@@ -15,7 +15,7 @@
 <div class="wrap">
 	<div class="header">
 		<div class="logo">
-			<h1><a href="index.html"><img src="web/images/logo.png" alt=""></a></h1>
+			<h1><a href="index.html"><img src="resources/image/logo.png" alt=""></a></h1>
 		</div>
 		<div class="social-icons">
 			<ul>
@@ -58,9 +58,9 @@
 			<h3>Biblioteca ITGAM</h3>
 			<div class="clear"> </div>
 			<div id="slider" class="nivoSlider">
-	                <img src="images/banner5.jpg" data-thumb="images/5.jpg" alt="" />
-	                <img src="images/banner6.jpg" data-thumb="images/6.jpg" alt="" />
-	                <img src="images/banner7.jpg" data-thumb="images/7.jpg" alt="" />
+	                <img src="resources/image/banner5.jpg" data-thumb="resources/image/5.jpg" alt="" />
+	                <img src="resources/image/banner6.jpg" data-thumb="resources/image/6.jpg" alt="" />
+	                <img src="resources/image/banner7.jpg" data-thumb="resources/image/7.jpg" alt="" />
 	            </div>
 		</div>
 						<div class="about-info">
@@ -77,17 +77,17 @@
 					<div class="clear"> </div>
 					<div class="specials-grids">
 						<div class="special-grid">
-							<img src="images/pic2.jpg" title="image-name">
+							<img src="resources/image/pic2.jpg" title="image-name">
 							<a href="#">Latest Plans</a>
 							<p>Lorem ipsum dolor sit amet consectetur adiing elit. In volutpat luctus eros ac placerat. Quisque erat metus facilisis non feu,aliquam hendrerit quam. Donec ut lectus vel dolor adipiscing tincnt.</p>
 						</div>
 						<div class="special-grid">
-							<img src="images/pic3.jpg" title="image-name">
+							<img src="resources/image/pic3.jpg" title="image-name">
 							<a href="#">Pre Plans</a>
 							<p>Lorem ipsum dolor sit amet consectetur adiing elit. In volutpat luctus eros ac placerat. Quisque erat metus facilisis non feu,aliquam hendrerit quam. Donec ut lectus vel dolor adipiscing tincnt.</p>
 						</div>
 						<div class="special-grid spe-grid">
-							<img src="images/pic4.jpg" title="image-name">
+							<img src="resources/image/pic4.jpg" title="image-name">
 							<a href="#">Free Plans</a>
 							<p>Lorem ipsum dolor sit amet consectetur adiing elit. In volutpat luctus eros ac placerat. Quisque erat metus facilisis non feu,aliquam hendrerit quam. Donec ut lectus vel dolor adipiscing tincnt.</p>
 						</div>
