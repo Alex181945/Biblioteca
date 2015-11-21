@@ -19,12 +19,12 @@
 		</div>
 		<div class="social-icons">
 			<ul>
-			     <li><a class="facebook" href="#" target="_blank"> </a></li>
-			     <li><a class="twitter" href="#" target="_blank"></a></li>
-			     <li><a class="googleplus" href="#" target="_blank"></a></li>
-			     <li><a class="pinterest" href="#" target="_blank"></a></li>
-			     <li><a class="dribbble" href="#" target="_blank"></a></li>
-			     <li><a class="vimeo" href="#" target="_blank"></a></li>
+			     <li><a class="facebook" href="https://es-la.facebook.com/" target="_blank"> </a></li>
+			     <li><a class="twitter" href="https://twitter.com/?lang=es" target="_blank"></a></li>
+			     <li><a class="googleplus" href="https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dgplp0#identifier" target="_blank"></a></li>
+			     <li><a class="pinterest" href="https://es.pinterest.com/" target="_blank"></a></li>
+			     <li><a class="dribbble" href="https://dribbble.com/" target="_blank"></a></li>
+			     <li><a class="vimeo" href="https://vimeo.com/" target="_blank"></a></li>
 		   </ul>
 		</div>	
 		<div class="clear"></div>
