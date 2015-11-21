@@ -15,7 +15,7 @@ import com.itgam.power.rangers.util.DBConexion;
 @Repository
 public class EditorialDaoImpl implements EditorialDao {
 
-	public void addctEditorial (ctEditorial obj_ctEditorial){
+	public void addctEditorial (ctEditorial obj_ctEditorial) throws SQLException{
 		 /*Conexion a la base de datos*/
 		DBConexion conexion = new DBConexion();
 		Connection inicio = conexion.GetConnection();
@@ -43,7 +43,7 @@ public class EditorialDaoImpl implements EditorialDao {
 			/*Sentencia SQL*/
 			String sentencia = null;
 			
-			sentencia = "INSERT INTO ctUsuario VALUES ("+valorMaximo+","
+			sentencia = "INSERT INTO ctEditorial VALUES ("+valorMaximo+","
 					+ "\""+obj_ctEditorial.getiEditorial()+"\",\""+obj_ctEditorial.getcEditorial()+"\","
 							+ "\""+obj_ctEditorial.getlEstatus()+"\",\""+obj_ctEditorial.getcObs()+"\")";
 			System.out.println(sentencia);

@@ -33,11 +33,11 @@
 	<div class='h_btm'>
 		<div class='cssmenu'>
 			<ul>
-			    <li><a href='index'><span>Inicio</span></a></li>
-			    <li><a href='about.html'><span>Nosotros</span></a></li>
+			    <li class='last'><a href='http://localhost:8080/power/'><span>Inicio</span></a></li>
+			    <li><a href='nosotros'><span>Nosotros</span></a></li>
 			    <li><a href='staff.html'><span>Staff</span></a></li>
 			    <li class='has-sub'><a href='service.html'><span>Servicios</span></a></li>
-			    <li class='active' class='last'><a href='contact.html'><span>Registrate</span></a></li>
+			    <li class='active'><a href='registrate'><span>Registrate</span></a></li>
 			 	<div class="clear"></div>
 			 </ul>
 	</div>
@@ -60,7 +60,7 @@
 		<div class="section group">				
 				<div class="col span_1_of_2">
 					<div class="contact_info">
-			    	 	<h2>Find Us Here</h2>
+			    	 	<h2>Encuentranos aqui</h2>
 			    	 		<div class="map">
 					   			<iframe width="100%" height="175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1880.9256714343808!2d-99.06142442327881!3d19.461975123586427!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x30b9a0b2b63fb2e7!2sInstituto+Tecnologico+de+Gustavo+A.+Madero!5e0!3m2!1ses-419!2smx!4v1447919714523"></iframe><br><small><a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1880.9256714343808!2d-99.06142442327881!3d19.461975123586427!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x30b9a0b2b63fb2e7!2sInstituto+Tecnologico+de+Gustavo+A.+Madero!5e0!3m2!1ses-419!2smx!4v1447919714523" style="color: #575757;text-align:left;font-size:13px">Mapa Largo</a></small>
 					   		</div>
@@ -84,19 +84,19 @@
 					       <form method="post" action="registrate/usuario">
 					    	<div>
 						    	<span><label>Nombre</label></span>
-						    	<span><input name="cNombre" type="text" class="textbox" placeholder="Alejandro"></span>
+						    	<span><input name="cNombre" type="text" class="textbox" placeholder="Alejandro" required></span>
 						    </div>
 						    <div>
 						    	<span><label>Apellidos</label></span>
-						    	<span><input name="cApellidos" type="text" class="textbox" placeholder="Ortega"></span>
+						    	<span><input name="cApellidos" type="text" class="textbox" placeholder="Ortega" required></span>
 						    </div>
 						    <div>
 						     	<span><label>Calle</label></span>
-						    	<span><input name="cCalle" type="text" class="textbox" placeholder="San Cochinita"></span>
+						    	<span><input name="cCalle" type="text" class="textbox" placeholder="San Cochinita" required></span>
 						    </div>
 						    <div>
 						    	<span><label>Numero Exterior</label></span>
-						    	<span><input name="cNumExterior" type="text" class="textbox" placeholder="62"></span>
+						    	<span><input name="cNumExterior" type="text" class="textbox" placeholder="62" required></span>
 						    </div>
 						    <div>
 						     	<span><label>Numero Interior</label></span>
@@ -104,38 +104,38 @@
 						    </div>
 						    <div>
 						     	<span><label>Colonia</label></span>
-						    	<span><input name="cColonia" type="text" class="textbox" placeholder="Amador"></span>
+						    	<span><input name="cColonia" type="text" class="textbox" placeholder="Amador" required></span>
 						    </div>
 						    <div>
 						     	<span><label>Codigo Postal</label></span>
-						    	<span><input name="cCP" type="text" class="textbox" placeholder="07870"></span>
+						    	<span><input name="cCP" type="text" class="textbox" placeholder="07870" required></span>
 						    </div>
 						    <div>
 						     	<span>Estado<label></label></span>
-						    	<span><input name="cEstado" type="text" class="textbox" placeholder="Distrito Federal"></span>
+						    	<span><input name="cEstado" type="text" class="textbox" placeholder="Distrito Federal" required></span>
 						    </div>
 						    <div>
 						     	<span><label>Email</label></span>
-						    	<span><input name="cEmail" type="text" class="textbox" placeholder="micorreo@mocosoft.com"></span>
+						    	<span><input name="cEmail" type="text" class="textbox" placeholder="micorreo@mocosoft.com" required></span>
 						    </div>
 						    <div>
 						     	<span><label>Fecha de Nacimiento</label></span>
-						    	<span><input name="dtFechaNac" type="date" class="textbox"></span>
+						    	<span><input name="dtFechaNac" type="date" class="textbox" required></span>
 						    </div>
 						    <div>
 						     	<span><label>Sexo</label></span>
-						    	<span><input name="lSexo" type="radio" class="textbox" value="true"
+						    	<span><input name="lSexo" type="radio" class="textbox" required value="true"
 						    	${ctUsuario.lSexo ? 'checked':''}>Masculino 
-						    	<input name="lSexo" type="radio" class="textbox" value="false"
+						    	<input name="lSexo" type="radio" class="textbox" required value="false"
 								${not ctUsuario.lSexo ? 'checked':''}>Femenino</span>
 						    </div>
 						    <div>
 						     	<span><label>Usuario</label></span>
-						    	<span><input name="cUsuario" type="text" class="textbox" placeholder="pepito123"></span>
+						    	<span><input name="cUsuario" type="text" class="textbox" placeholder="pepito123" required></span>
 						    </div>
 						    <div>
 						     	<span><label>Password</label></span>
-						    	<span><input name="cPassword" type="password" class="textbox" placeholder="*********"></span>
+						    	<span><input name="cPassword" type="password" class="textbox" placeholder="*********" required></span>
 						    </div>
 						   <div>
 						   		<span><input type="submit" value="Enviar"></span>

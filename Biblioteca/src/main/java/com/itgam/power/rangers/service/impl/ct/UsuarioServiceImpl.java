@@ -26,4 +26,8 @@ public class UsuarioServiceImpl implements UsuarioService {
 	public void deletectUsuario (Integer id_ctUsuario){
 		usuarioDao.deletectUsuario(id_ctUsuario);
 	}
+	
+	public Boolean loginctUsuario (ctUsuario obj_ctUsuario) throws SQLException{
+		return usuarioDao.loginctUsuario(obj_ctUsuario);
+	}
 }
