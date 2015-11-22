@@ -15,6 +15,7 @@
 <script type="text/javascript" src="resources/js/Myriad_Pro_300.font.js"></script>
 <script type="text/javascript" src="resources/js/Myriad_Pro_400.font.js"></script>
 <script type="text/javascript" src="resources/js/script.js"></script>
+<script type="text/javascript" src='<c:url value="/resources/js/ctLibro.js"/>'></script>
 <!--[if lt IE 7]>$
      <link rel="stylesheet" href="css/ie/ie6.css" type="text/css" media="screen">
      <script type="text/javascript" src="js/ie_png.js"></script>
@@ -132,6 +133,9 @@
                </tbody>
             </table>
          </div>
+         <div id="AddCtGrupo_Dialog" style="display: none;">
+			<%@ include file="addLibro.jsp"%>
+		</div>
       </section>
    </div>
 </div>
