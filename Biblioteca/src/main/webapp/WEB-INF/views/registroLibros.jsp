@@ -8,6 +8,7 @@
 <meta name="author" content="Templates.com - website templates provider">
 <link rel="stylesheet" href="<c:url value= "resources/css/reset.css"/>" type="text css" media="all">
 <link rel="stylesheet" href="<c:url value= "resources/css/style.css"/>" type="text/css" media="all">
+<link rel="stylesheet" href="<c:url value= "resources/css/button.css"/>" type="text/css" media="all">
 <script type="text/javascript" src="resources/js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="resources/js/cufon-replace.js"></script>
@@ -90,12 +91,12 @@
             <table>
             <thead>
                <tr>
-               		<td width="4%"><h4 align = "center">ID Libro</h4></td>
+               		<td width="4%"><h4 align = "center">No.</h4></td>
                		<td width="30%"><h4 align = "center">Titulo</h4></td>
                		<td width="13%"><h4 align = "center">Editorial</h4></td>
                		<td width="13%"><h4 align = "center">Autor</h4></td>
                		<td width="13%"><h4 align = "center">Area de Conocimiento</h4></td>
-               		<td width="13%"><h4 align = "center">Disponibilidad</h4></td>
+               		<td width="13%"><h4 align = "center">Disponible</h4></td>
                		<td width="30%"><h4 align = "center">Descripcion</h4></td>
                		<th width="13%"></th>
                </tr>
@@ -113,10 +114,10 @@
                		
                		<td><nobr>
 
-								<a class="pure-button pure-button-primary"
+								<button class="myButton"
 									onclick="edit_ctLibro('${ctLibro.iLibro}');">
 									<i class="fa fa-pencil"></i> Editar
-								</a>
+								</button>
 
 								<a class="pure-button pure-button-primary"
 									onclick="return confirm('¿Desea Eliminar el usuario  selecionado?');"
