@@ -34,7 +34,7 @@
          <nav>
             <ul>
                <li class="current"><a href="index.html" class="m1">Incio</a></li>
-               <li><a href="about-us.html" class="m2">Disponibilidad de Libros</a></li>
+               <li><a href="libro" class="m2">Disponibilidad de Libros</a></li>
                <li><a href="articles.html" class="m3">Usuarios Registrados</a></li>
                <li><a href="contact-us.html" class="m4">Herramientas Administrativas</a></li>
             </ul>
@@ -51,7 +51,7 @@
    <div class="container">
       <!-- aside -->
       <aside>
-         <h3>Categories</h3>
+         <h3>Categorias</h3>
          <ul class="categories">
             <li><span><a href="#">Usuarios</a></span></li>
             <li><span><a href="#">Catalogos</a></span></li>

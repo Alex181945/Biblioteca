@@ -45,6 +45,7 @@
 			    <li><a href='nosotros'><span>Nosotros</span></a></li>
 			    <li class='has-sub'><a href='servicios'><span>Servicios</span></a></li>
 			    <li class='last'><a href='registrate'><span>Registrate</span></a></li>
+			    <li><a href='itgam'><span>Iniciar Sesion</span></a></li>
 			 	<div class="clear"></div>
 			 </ul>
 	</div>
