@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="<c:url value= "resources/css/button.css"/>" type="text/css" media="all">
 <link rel="stylesheet" href='<c:url value="/resources/css/font-awesome-4.0.3/css/font-awesome.css"/>'>
 <link rel="stylesheet" href='<c:url value="/resources/css/jquery-ui-1.10.4.custom.css"/>'>
+<link rel="stylesheet" href='<c:url value="/resources/css/pure-0.4.2.css"/>'>
 <script type="text/javascript" src="resources/js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="resources/js/cufon-replace.js"></script>
