@@ -69,7 +69,7 @@ public class LibroDaoImpl implements LibroDao {
 		
 	}
 	
-	public void updatectLibro (ctLibro id_ctLibro){
+	public void updatectLibro (ctLibro obj_ctLibro){
 		
 		/*Conexion a la base de datos*/
 		DBConexion conexion = new DBConexion();
@@ -78,6 +78,17 @@ public class LibroDaoImpl implements LibroDao {
 		try{
 			/*Creacion de la variable que almacenara la sentencia SQL*/
 			Statement consulta = inicio.createStatement();
+			
+			/*Sentencia SQL*/
+			String sentencia = null;
+			
+			sentencia = "UPDATE ctLibro SET cNombre = \""+obj_ctLibro.getcNombre()+"\","
+					+ "iEditorial = "+obj_ctLibro.getiEditorial()+",cAutor = \""+obj_ctLibro.getcAutor()+"\","
+							+ "iMateria = "+obj_ctLibro.getiMateria()+",lEstatus = "+obj_ctLibro.getlEstatus()+","
+									+ "cObs = \""+obj_ctLibro.getcObs()+"\" WHERE iLibro = "+obj_ctLibro.getiLibro()+"";
+			System.out.println(sentencia);
+			consulta.executeUpdate(sentencia);
+			
 		}catch(Exception e){
 			System.out.println("Algo salio mal");
 		}
