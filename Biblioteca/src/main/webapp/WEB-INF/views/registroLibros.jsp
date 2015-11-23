@@ -9,6 +9,9 @@
 <link rel="stylesheet" href="<c:url value= "resources/css/reset.css"/>" type="text css" media="all">
 <link rel="stylesheet" href="<c:url value= "resources/css/style.css"/>" type="text/css" media="all">
 <link rel="stylesheet" href="<c:url value= "resources/css/button.css"/>" type="text/css" media="all">
+<link rel="stylesheet" href='<c:url value="/resources/css/font-awesome-4.0.3/css/font-awesome.css"/>'>
+
+<link rel="stylesheet" href='<c:url value="/resources/css/jquery-ui-1.10.4.custom.css"/>'>
 <script type="text/javascript" src="resources/js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="resources/js/cufon-replace.js"></script>
@@ -120,11 +123,11 @@
 									<i class="fa fa-pencil"></i> Editar
 								</button>
 
-								<a class="pure-button pure-button-primary"
+								<button class="myButton"
 									onclick="return confirm('¿Desea Eliminar el usuario  selecionado?');"
 									href="ctLibro/remove/${ctLibro.iLibro}"> 
 									<i class="fa fa-times"></i>Eliminar
-								</a>
+								</button>
 
 							</nobr></td>
 							
