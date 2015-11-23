@@ -15,7 +15,7 @@
 				<td><form:label path="iLibro">
 						<spring:message text="ID" />
 					</form:label></td>
-				<td><form:input path="iLibro"  readonly="true" /></td>
+				<td><form:input path="iLibro"  readonly="true"/></td>
 			</tr>
 			<tr>
 				<td><form:label path="cNombre">
