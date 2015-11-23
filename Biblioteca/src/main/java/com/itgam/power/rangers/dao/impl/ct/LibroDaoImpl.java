@@ -47,10 +47,9 @@ public class LibroDaoImpl implements LibroDao {
 			String sentencia = null;
 			
 			sentencia = "INSERT INTO ctLibro VALUES ("+valorMaximo+","
-					+ "\""+obj_ctLibro.getiLibro()+"\",\""+obj_ctLibro.getcNombre()+"\","
-							+ "\""+obj_ctLibro.getiEditorial()+"\",\""+obj_ctLibro.getcAutor()+"\","
-									+ "\""+obj_ctLibro.getiMateria()+"\",\""+obj_ctLibro.getlEstatus()+"\","
-											+ "\""+obj_ctLibro.getcObs()+"\")";
+					+ "\""+obj_ctLibro.getcNombre()+"\","+obj_ctLibro.getiEditorial()+","
+							+ "\""+obj_ctLibro.getcAutor()+"\","+obj_ctLibro.getiMateria()+","
+									+ ""+obj_ctLibro.getlEstatus()+",\""+obj_ctLibro.getcObs()+"\")";
 			System.out.println(sentencia);
 			
 			consulta.execute(sentencia);
@@ -72,10 +71,57 @@ public class LibroDaoImpl implements LibroDao {
 	
 	public void updatectLibro (ctLibro id_ctLibro){
 		
+		/*Conexion a la base de datos*/
+		DBConexion conexion = new DBConexion();
+		Connection inicio = conexion.GetConnection();
+
+		try{
+			/*Creacion de la variable que almacenara la sentencia SQL*/
+			Statement consulta = inicio.createStatement();
+		}catch(Exception e){
+			System.out.println("Algo salio mal");
+		}
+		finally{
+			/*Terminando conexion con la base de datos*/
+			System.out.println("Termina conexion");
+			try {
+				inicio.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
 	}
 	
 	public void deletectLibro (Integer id_ctLibro){
 		
+		/*Conexion a la base de datos*/
+		DBConexion conexion = new DBConexion();
+		Connection inicio = conexion.GetConnection();
+		
+		try{
+			/*Creacion de la variable que almacenara la sentencia SQL*/
+			Statement consulta = inicio.createStatement();
+			
+			/*Sentencia SQL*/
+			String sentencia = null;
+			
+			sentencia = "DELETE FROM ctLibro WHERE iLibro = "+id_ctLibro+"";
+			consulta.execute(sentencia);
+			
+		}catch (Exception e){
+			System.out.println("Hubo un problema: "+e);
+		}
+		finally{
+			/*Terminando conexion con la base de datos*/
+			System.out.println("Termina conexion");
+			try {
+				inicio.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
 	}
 	
 	public List<ctLibro> list_ctLibro(){

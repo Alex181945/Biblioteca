@@ -19,7 +19,7 @@
 			</tr>
 			<tr>
 				<td><form:label path="cNombre">
-						<spring:message text="Curso" />
+						<spring:message text="Titulo" />
 					</form:label></td>
 				<td><form:input path="cNombre" placeholder="Ej. Tango" onkeypress="return soloLetras(event)"/></td>
 			</tr>
