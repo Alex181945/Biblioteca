@@ -37,7 +37,7 @@ public class LibroController {
 		return "redirect:/itgam/libro";
 	}
 	
-	@RequestMapping("/ctGrupo/get/{id}")
+	@RequestMapping("/libro/get/{id}")
 	public String get_ctGrupo(@PathVariable("id") int id_ctLibro, Model model){
 		
 		model.addAttribute("ctLibro",libroService.get_ctLibro(id_ctLibro));

@@ -70,7 +70,7 @@ function add_ctLibro() {
 
 function edit_ctLibro(id) {
 
-	$.get("ctLibro/get/" + id, function(result) {
+	$.get("libro/get/" + id, function(result) {
 		$("#AddCtLibro_Dialog").html(result);
 		$("#AddCtLibro_Dialog").dialog("option", "title", 'Editar Libro');
 		$("#AddCtLibro_Dialog").dialog('open');
