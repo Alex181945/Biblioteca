@@ -129,6 +129,49 @@ public class LibroDaoImpl implements LibroDao {
 	
 	public ctLibro get_ctLibro(Integer id_ctLibro){
 		
-		return null;
+		/*Creacion de la lista que almacenara los datos*/
+		ctLibro obj = new ctLibro();
+		
+		/*Conexion a la base de datos*/
+		DBConexion conexion = new DBConexion();
+		Connection inicio = conexion.GetConnection();
+		
+		try{
+			/*Creacion de la variable que almacenara la sentencia SQL*/
+			Statement consulta = inicio.createStatement();
+			
+			/*Sentencia SQL*/
+			String sentencia = null;
+			
+			sentencia = "SELECT * FROM ctLibro WHERE iLibro = "+id_ctLibro+"";
+			ResultSet res = consulta.executeQuery(sentencia);
+			
+			while(res.next()){
+				
+				obj.setiLibro(res.getInt("iLibro"));
+				obj.setcNombre(res.getString("cNombre"));
+				obj.setiEditorial(res.getInt("iEditorial"));
+				obj.setcAutor(res.getString("cAutor"));
+				obj.setiMateria(res.getInt("iMateria"));
+				obj.setlEstatus(res.getBoolean("lEstatus"));
+				obj.setcObs(res.getString("cObs"));
+				
+			}
+			
+		}catch (Exception e){
+			System.out.println("Hubo un problema: "+e);
+		}
+		finally{
+			/*Terminando conexion con la base de datos*/
+			System.out.println("Termina conexion");
+			try {
+				inicio.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+		return obj;
 	}
 }

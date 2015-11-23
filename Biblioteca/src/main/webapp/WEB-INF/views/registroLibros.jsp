@@ -9,12 +9,16 @@
 <link rel="stylesheet" href="<c:url value= "resources/css/reset.css"/>" type="text css" media="all">
 <link rel="stylesheet" href="<c:url value= "resources/css/style.css"/>" type="text/css" media="all">
 <link rel="stylesheet" href="<c:url value= "resources/css/button.css"/>" type="text/css" media="all">
+<link rel="stylesheet" href='<c:url value="/resources/css/font-awesome-4.0.3/css/font-awesome.css"/>'>
+
+<link rel="stylesheet" href='<c:url value="/resources/css/jquery-ui-1.10.4.custom.css"/>'>
 <script type="text/javascript" src="resources/js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="resources/js/cufon-replace.js"></script>
 <script type="text/javascript" src="resources/js/Myriad_Pro_300.font.js"></script>
 <script type="text/javascript" src="resources/js/Myriad_Pro_400.font.js"></script>
 <script type="text/javascript" src="resources/js/script.js"></script>
+<script type="text/javascript" src='<c:url value="/resources/js/ctLibro.js"/>'></script>
 <!--[if lt IE 7]>$
      <link rel="stylesheet" href="css/ie/ie6.css" type="text/css" media="screen">
      <script type="text/javascript" src="js/ie_png.js"></script>
@@ -119,11 +123,11 @@
 									<i class="fa fa-pencil"></i> Editar
 								</button>
 
-								<a class="pure-button pure-button-primary"
+								<button class="myButton"
 									onclick="return confirm('¿Desea Eliminar el usuario  selecionado?');"
 									href="ctLibro/remove/${ctLibro.iLibro}"> 
 									<i class="fa fa-times"></i>Eliminar
-								</a>
+								</button>
 
 							</nobr></td>
 							
@@ -132,6 +136,9 @@
                </tbody>
             </table>
          </div>
+         <div id="AddCtGrupo_Dialog" style="display: none;">
+			<%@ include file="addLibro.jsp"%>
+		</div>
       </section>
    </div>
 </div>
