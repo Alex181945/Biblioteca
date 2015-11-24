@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.itgam.power.rangers.model.ctLibro;
+import com.itgam.power.rangers.service.ct.EditorialService;
 import com.itgam.power.rangers.service.ct.LibroService;
 
 @Controller
@@ -19,11 +20,15 @@ public class LibroController {
 	@Autowired
 	private LibroService libroService;
 	
+	@Autowired
+	private EditorialService editorialService;
+	
 	@RequestMapping(value = "/libro", method = RequestMethod.GET)
 	public String libro(Model model) {
 		
 		model.addAttribute("ctLibro", new ctLibro());
 		model.addAttribute("lista_ctLibro",libroService.list_ctLibro());
+		model.addAttribute("lista_ctEditorial",editorialService.list_ctEditorial());
 		
 		return "registroLibros";
 	}

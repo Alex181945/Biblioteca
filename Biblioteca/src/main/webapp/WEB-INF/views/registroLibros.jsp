@@ -122,7 +122,7 @@
                		<td><p align = "center"><span><c:out value="${ctLibro.editorial.cEditorial}"></c:out></span></p></td>
                		<td><p align = "justify"><span><c:out value="${ctLibro.cAutor}"></c:out></span></p></td>
                		<td><p align = "center"><span><c:out value="${ctLibro.iMateria}"></c:out></span></p></td>
-               		<td><p align = "center"><span><c:out value="${ctLibro.lEstatus}"></c:out></span></p></td>
+               		<td><p align = "center"><span><c:out value="${ctLibro.lEstatus ? 'Si':'No'}"></c:out></span></p></td>
                		<td><p align = "justify"><span><c:out value="${ctLibro.cObs}"></c:out></span></p></td>
                		
                		<td><nobr>

@@ -38,7 +38,8 @@
 				<td><form:label path="iEditorial">
 						<spring:message text="Editorial" />
 					</form:label></td>
-				<td><form:input path="iEditorial" placeholder="Ej. Pearson" onkeypress="return soloNumero(event)"/></td>
+				<td><form:select path="iEditorial" items="${lista_ctEditorial}" 
+				itemValue="iEditorial" itemLabel="cEditorial"/></td>
 
 			</tr>
 			
