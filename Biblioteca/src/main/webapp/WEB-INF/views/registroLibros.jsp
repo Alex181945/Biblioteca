@@ -69,15 +69,15 @@
          <form action="" id="newsletter-form">
             <fieldset>
             <div class="rowElem">
-               <h2>Newsletter</h2>
+               <h2>Nuevo</h2>
                <input type="email" value="Enter Your Email Here" onFocus="if(this.value=='Enter Your Email Here'){this.value=''}" onBlur="if(this.value==''){this.value='Enter Your Email Here'}" >
-               <div class="clear"><a href="#" class="fleft">Unsubscribe</a><a href="#" class="fright" onClick="document.getElementById('newsletter-form').submit()">Submit</a></div>
+               <div class="clear"><a href="#" class="fleft">Suscribete</a><a href="#" class="fright" onClick="document.getElementById('newsletter-form').submit()">Submit</a></div>
             </div>
             </fieldset>
          </form>
          <h2>Fresh <span>News</span></h2>
          <ul class="news">
-            <li><strong>June 30, 2010</strong>
+            <li><strong>Quejas y Sugerencias</strong>
                <h4><a href="#">Sed ut perspiciatis unde</a></h4>
                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. </li>
             <li><strong>June 14, 2010</strong>

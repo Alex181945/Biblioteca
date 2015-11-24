@@ -58,53 +58,47 @@
             <li><span><a href="#">Editoriales</a></span></li>
             <li><span><a href="#">Reportes</a></span></li>
          </ul>
-         <form action="" id="newsletter-form">
-            <fieldset>
-            <div class="rowElem">
-               <h2>Newsletter</h2>
-               <input type="email" value="Enter Your Email Here" onFocus="if(this.value=='Enter Your Email Here'){this.value=''}" onBlur="if(this.value==''){this.value='Enter Your Email Here'}" >
-               <div class="clear"><a href="#" class="fleft">Unsubscribe</a><a href="#" class="fright" onClick="document.getElementById('newsletter-form').submit()">Submit</a></div>
-            </div>
-            </fieldset>
-         </form>
-         <h2>Fresh <span>News</span></h2>
+       
+         <h2>Noticias <span>ITGAM</span></h2>
          <ul class="news">
-            <li><strong>June 30, 2010</strong>
-               <h4><a href="#">Sed ut perspiciatis unde</a></h4>
-               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. </li>
-            <li><strong>June 14, 2010</strong>
-               <h4><a href="#">Neque porro quisquam est</a></h4>
-               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit consequuntur magni. </li>
-            <li><strong>May 29, 2010</strong>
-               <h4><a href="#">Minima veniam, quis nostrum</a></h4>
-               Uis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae. </li>
+            <li></strong>
+               <h4><a href="#">Quejas y Sugerencias</a></h4>
+              Mandanos un correo con tus dudas, observaciones sugerencias o quejas con respecto a la Biblioteca Nacional de Ciencia y Tecnologia, en un lapso no mayor a 24 horas tendras una repuesta. </li>
+            <li><strong></strong>
+               <h4><a href="#">Normatividad SCT</a></h4>
+               Donacion de la Secretaria de Comunicaciones y Transportes para la infraestructura del transporte. </li>
+            <li><strong>strong>
+               <h4><a href="#">Biblioteconomia, Documentacion, Archivistica y Museologia</a></h4>
+              Esta coleccion esta especializada en Biblioteconomia, Documentacion, Archivistica y Museologia, asi como en materias estrechamente relacionadas con estas disciplinas, como la Historia del libro o las Nuevas Tecnologias de la Informacion. </li>
          </ul>
       </aside>
       <!-- content -->
       <section id="content">
          <div id="banner">
-            <h2>Professional <span>Online Education <span>Since 1992</span></span></h2>
+            <h2>Profesional <span>Online ITGAM <span>Since 2015</span></span></h2>
          </div><div class="ic">More Website Templates at TemplateMonster.com!</div>
          <div class="inside">
-            <h2>Recent <span>Articles</span></h2>
+            <h2>Reciente <span>Articulo</span></h2>
             <ul class="list">
                <li><span><img src="resources/image/icon1.png"></span>
-                  <h4>About Template</h4>
-                  <p>Free 1028X768 Optimized Website Template from TemplateMonster.com! We hope that you like this tem- plate and will use for your websites.</p>
+                  <h4>Catalogo General</h4>
+                  <p>En el catalogo general se pueden consultar las referencias bibliograficas de todos los documentos conservados en la Biblioteca: libros, manuscritos, prensa, material grafico, partituras, audiovisuales y registros sonoros. </p>
                </li>
                <li><span><img src="resources/image/icon2.png"></span>
-                  <h4>Branch Office</h4>
-                  <p>Sed ut perspiciatis unomnis iste natus error sit volup tatem accusantiu loremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                  <h4>Colecciones</h4>
+                  <p> Sus colecciones incluyen todo tipo de materiales y las principales vias de enriquecimiento de sus fondos son las adquisiciones: compra, deposito legal, donativo y canje.</p>
                </li>
                <li class="last"><span><img src="resources/image/icon3.png"></span>
-                  <h4>Student’s Time</h4>
-                  <p>Eque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempo- ra incidunt ut labore.</p>
+                  <h4>Ediciones Propias</h4>
+                  <p>
+Aqui encontrara usted una seleccion de textos digitalizados pertenecientes al Servicio de publicaciones de la Obra Social Bancaja. La mayoria de lo textos se encuentran en formato PDF y para acceder a ellos basta con pulsar sobre el icono correspondiente.</p>
                </li>
             </ul>
-            <h2>Move Forward <span>With Your Education</span></h2>
-            <p><span class="txt1">Student’s Site</span> is a free web template created by TemplateMonster.com team. This website template is optimized for 1024X768 screen resolution. </p>
-            <div class="img-box"><img src="resources/image/1page-img.jpg">This website template can be delivered in two packages - with PSD source files included and without them. If you need PSD source files, please go to the template download page at TemplateMonster to leave the e-mail address that you want the template ZIP package to be delivered to.</div>
-            <p class="p0">This website template has several pages: <a href="index.html">Home</a>, <a href="about-us.html">About us</a>, <a href="articles.html">Articles</a> (with Article page), <a href="contact-us.html">Contact us</a> (note that contact us form – doesn’t work), <a href="sitemap.html">Site Map</a>.</p>
+            <h2>Como consultar <span>los fondos de esta sala</span></h2>
+            <p><span class="txt1">Consultar</span> Para la consulta de estos fondos es necesario el carne de investigador o lector. Para el prestamo domiciliario, es preciso disponer del carne de Documentacion Bibliotecaria.
+ 			<p><span class="txt1">Fondos en libre acceso:</span>Toda la coleccion esta en las estanterias de la sala y son de libre acceso.
+            <div class="img-box"><img src="resources/image/1page-img.jpg"><p><span class="txt1">Prestamo domiciliario: </span> Puede llevarse en prestamo domiciliario 3 ejemplares durante 10 dias, y puede renovar el prestamo 2 veces por otros 10 dias cada renovacion. Las renovaciones se pueden solicitar presencialmente o por telefono. Tambien es posible hacer reservas de ejemplares que esten prestados a otros usuarios. </p>
+            
          </div>
       </section>
    </div>
@@ -114,9 +108,9 @@
    <div class="container">
       <div class="inside">
          <div class="wrapper">
-            <div class="fleft">24/7 Customer Service <span>8.800.146.56.7</span></div>
-            <div class="aligncenter"><a rel="nofollow" href="http://www.templatemonster.com" class="new_window">Website template</a> designed by TemplateMonster.com<br>
-               <a href="http://www.templates.com/product/3d-models/" class="new_window">3D Models</a> provided by Templates.com</div>
+            <div class="fleft">Visitas<span>8,800,745,412</span></div>
+            <p class="w3-link"> <a 
+            href="http://w3layouts.com/"> Hecho en Mexico, INSTITUTO TECNOLOGICO DE LA GUSTAVO A. MADERO (ITGAM) Copyright © 1995-2015 eBay Inc. Todos los derechos reservados. Condiciones de uso, Privacidad, Cookies y AdChoice.</a></p>
          </div>
       </div>
    </div>
