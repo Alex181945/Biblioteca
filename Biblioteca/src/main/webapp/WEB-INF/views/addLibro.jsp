@@ -30,7 +30,7 @@
 				<td><form:label path="cNombre">
 						<spring:message text="Titulo" />
 					</form:label></td>
-				<td><form:input path="cNombre" placeholder="Ej. Tango" onkeypress="return soloLetras(event)"/></td>
+				<td><form:input path="cNombre" placeholder="Ej. Introduccion a POO" onkeypress="return soloLetras(event)"/></td>
 			</tr>
 
 			
@@ -38,7 +38,7 @@
 				<td><form:label path="iEditorial">
 						<spring:message text="Editorial" />
 					</form:label></td>
-				<td><form:input path="iEditorial" placeholder="Ej. 10" onkeypress="return soloNumero(event)"/></td>
+				<td><form:input path="iEditorial" placeholder="Ej. Pearson" onkeypress="return soloNumero(event)"/></td>
 
 			</tr>
 			
@@ -46,7 +46,7 @@
 				<td><form:label path="cAutor">
 						<spring:message text="Autor" />
 					</form:label></td>
-				<td><form:input path="cAutor" placeholder="Ej. 15" onkeypress="return soloLetras(event)"/></td>
+				<td><form:input path="cAutor" placeholder="Ej. Michell Brow" onkeypress="return soloLetras(event)"/></td>
 
 			</tr>
 			
@@ -54,8 +54,7 @@
 				<td><form:label path="iMateria">
 						<spring:message text="Materia" />
 					</form:label></td>
-				<td><form:input path="iMateria" placeholder="Ej. 1000.00" onkeypress="return soloNumero(event)"/></td>
-
+				<td><form:input path="iMateria" placeholder="Ej. Programacion" onkeypress="return soloNumero(event)"/></td>
 			</tr>
 			
 			
@@ -71,7 +70,7 @@
 				<td><form:label path="cObs">
 						<spring:message text="Observaciones" />
 					</form:label></td>
-				<td><form:input path="cObs" placeholder="Ej. 15" onkeypress="return soloLetras(event)"/></td>
+				<td><form:input path="cObs" placeholder="Ej. Este Libro..." onkeypress="return soloLetras(event)"/></td>
 
 			</tr>
 			

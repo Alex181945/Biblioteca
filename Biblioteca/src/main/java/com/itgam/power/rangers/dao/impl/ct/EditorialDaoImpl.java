@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.sql.Timestamp;
 
 import org.springframework.stereotype.Repository;
 
@@ -60,8 +59,38 @@ public class EditorialDaoImpl implements EditorialDao {
 		
 	}
 	
-	public void updatectEditorial (ctEditorial id_ctEditorial){
+	public void updatectEditorial (ctEditorial obj_ctEditorial){
 		
+		/*Conexion a la base de datos*/
+		DBConexion conexion = new DBConexion();
+		Connection inicio = conexion.GetConnection();
+
+		try{
+			/*Creacion de la variable que almacenara la sentencia SQL*/
+			Statement consulta = inicio.createStatement();
+			
+			/*Sentencia SQL*/
+			String sentencia = null;
+			
+			sentencia = "UPDATE ctEditorial SET cEditorial = \""+obj_ctEditorial.getcEditorial()+"\","
+					+"lEstatus = "+obj_ctEditorial.getlEstatus()+","
+									+ "cObs = \""+obj_ctEditorial.getcObs()+"\" WHERE iLibro = "+obj_ctEditorial.getiEditorial()+"";
+			System.out.println(sentencia);
+			consulta.executeUpdate(sentencia);
+			
+		}catch(Exception e){
+			System.out.println("Algo salio mal");
+		}
+		finally{
+			/*Terminando conexion con la base de datos*/
+			System.out.println("Termina conexion");
+			try {
+				inicio.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
 	}
 	
 	public void deletectEditorial (Integer id_ctEditorial){
