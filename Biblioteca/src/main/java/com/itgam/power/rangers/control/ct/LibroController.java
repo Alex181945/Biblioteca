@@ -1,8 +1,6 @@
 package com.itgam.power.rangers.control.ct;
 
-import java.io.IOException;
 import java.sql.SQLException;
-import java.util.Locale;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -32,16 +30,30 @@ public class LibroController {
 	
 	@RequestMapping(value = "/libro/registro", method = RequestMethod.POST)
 	public String registroLibro(@ModelAttribute("ctLibro") ctLibro obj_ctLibro) throws SQLException {
+		System.out.println("Entro con: " + obj_ctLibro.getiLibro());
+		if((obj_ctLibro.getiLibro()).equals(0)){
+			System.out.println("Entro");
+			libroService.addctLibro(obj_ctLibro);
+		}
+		else{
+			libroService.updatectLibro(obj_ctLibro);
+		}
 		
-		libroService.addctLibro(obj_ctLibro);
-		return "redirect:/itgam/libro";
+		return "redirect:/libro";
 	}
 	
 	@RequestMapping("/libro/get/{id}")
-	public String get_ctGrupo(@PathVariable("id") int id_ctLibro, Model model){
+	public String get_ctLibro(@PathVariable("id") int id_ctLibro, Model model){
 		
 		model.addAttribute("ctLibro",libroService.get_ctLibro(id_ctLibro));
 		return "addLibro";
 
+	}
+	
+	@RequestMapping("/libro/borrar/{id}")
+	public String remove_ctLibro(@PathVariable("id") int id_ctLibro){
+		
+		libroService.deletectLibro(id_ctLibro);
+		return "redirect:/libro";
 	}
 }

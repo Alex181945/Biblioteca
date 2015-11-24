@@ -30,10 +30,10 @@
    <!-- header -->
    <header>
       <div class="container">
-         <h1><a href="index.html">Biblioteca Online</a></h1>
+         <h1><a href="biblioteca">Biblioteca Online</a></h1>
          <nav>
             <ul>
-               <li class="current"><a href="index.html" class="m1">Incio</a></li>
+               <li class="current"><a href="biblioteca" class="m1">Incio</a></li>
                <li><a href="libro" class="m2">Disponibilidad de Libros</a></li>
                <li><a href="articles.html" class="m3">Usuarios Registrados</a></li>
                <li><a href="contact-us.html" class="m4">Herramientas Administrativas</a></li>

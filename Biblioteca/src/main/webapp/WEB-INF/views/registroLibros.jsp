@@ -12,6 +12,16 @@
 <link rel="stylesheet" href='<c:url value="/resources/css/font-awesome-4.0.3/css/font-awesome.css"/>'>
 <link rel="stylesheet" href='<c:url value="/resources/css/jquery-ui-1.10.4.custom.css"/>'>
 <link rel="stylesheet" href='<c:url value="/resources/css/pure-0.4.2.css"/>'>
+<script type="text/javascript" src="resources/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="resources/js/cufon-yui.js"></script>
+<script type="text/javascript" src="resources/js/cufon-replace.js"></script>
+<script type="text/javascript" src="resources/js/Myriad_Pro_300.font.js"></script>
+<script type="text/javascript" src="resources/js/Myriad_Pro_400.font.js"></script>
+<script type="text/javascript" src="resources/js/script.js"></script>
+<script type="text/javascript" src='<c:url value="/resources/js/lib/jquery-1.10.2.js"/>'></script>
+<script type="text/javascript" src='<c:url value="/resources/js/lib/jquery-ui-1.10.4.custom.js"/>'></script>
+<script type="text/javascript" src='<c:url value="/resources/js/lib/jquery.ui.datepicker.js"/>'></script>
+<script type="text/javascript" src='<c:url value="/resources/js/ctLibro.js"/>'></script>
 <!--[if lt IE 7]>$
      <link rel="stylesheet" href="css/ie/ie6.css" type="text/css" media="screen">
      <script type="text/javascript" src="js/ie_png.js"></script>
@@ -28,11 +38,11 @@
    <!-- header -->
    <header>
       <div class="container">
-         <h1><a href="index.html">Biblioteca Online</a></h1>
+         <h1><a href="biblioteca">Biblioteca Online</a></h1>
          <nav>
             <ul>
-               <li class="current"><a href="index.html" class="m1">Incio</a></li>
-               <li><a href="about-us.html" class="m2">Disponibilidad de Libros</a></li>
+               <li class="current"><a href="biblioteca" class="m1">Incio</a></li>
+               <li><a href="libro" class="m2">Disponibilidad de Libros</a></li>
                <li><a href="articles.html" class="m3">Usuarios Registrados</a></li>
                <li><a href="contact-us.html" class="m4">Herramientas Administrativas</a></li>
             </ul>
@@ -88,6 +98,9 @@
             <div id="AddCtLibro_Dialog" style="display: none;">
 				<%@ include file="addLibro.jsp"%>
 			</div>
+			<button class="pure-button pure-button-primary" onclick="add_ctLibro()">
+			<i class="fa fa-plus"></i> Agregar Libro
+		</button>
             <table>
             <thead>
                <tr>
@@ -119,11 +132,11 @@
 									<i class="fa fa-pencil"></i> Editar
 								</button>
 
-								<button class="myButton"
+								<a class="myButton"
 									onclick="return confirm('¿Desea Eliminar el usuario  selecionado?');"
-									href="ctLibro/remove/${ctLibro.iLibro}"> 
+									href="libro/borrar/${ctLibro.iLibro}"> 
 									<i class="fa fa-times"></i>Eliminar
-								</button>
+								</a>
 
 							</nobr></td>
 							
@@ -148,15 +161,5 @@
    </div>
 </footer>
 <script type="text/javascript"> Cufon.now(); </script>
-<script type="text/javascript" src="resources/js/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="resources/js/cufon-yui.js"></script>
-<script type="text/javascript" src="resources/js/cufon-replace.js"></script>
-<script type="text/javascript" src="resources/js/Myriad_Pro_300.font.js"></script>
-<script type="text/javascript" src="resources/js/Myriad_Pro_400.font.js"></script>
-<script type="text/javascript" src="resources/js/script.js"></script>
-<script type="text/javascript" src='<c:url value="/resources/js/lib/jquery-1.10.2.js"/>'></script>
-<script type="text/javascript" src='<c:url value="/resources/js/lib/jquery-ui-1.10.4.custom.js"/>'></script>
-<script type="text/javascript" src='<c:url value="/resources/js/lib/jquery.ui.datepicker.js"/>'></script>
-<script type="text/javascript" src='<c:url value="/resources/js/ctLibro.js"/>'></script>
 </body>
 </html>
