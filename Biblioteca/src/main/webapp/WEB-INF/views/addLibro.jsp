@@ -11,12 +11,21 @@
 		<legend></legend>
 
 		<table>
+		<c:if test="${!empty ctLibro.iLibro}">
 			<tr>
 				<td><form:label path="iLibro">
 						<spring:message text="ID" />
 					</form:label></td>
 				<td><form:input path="iLibro"  readonly="true"/></td>
 			</tr>
+			</c:if>
+			<tr>
+				<td><form:label path="iLibro">
+						<spring:message text="ID" />
+					</form:label></td>
+				<td><form:input path="iLibro"  readonly="true" value = "0"/></td>
+			</tr>
+			
 			<tr>
 				<td><form:label path="cNombre">
 						<spring:message text="Titulo" />
@@ -65,7 +74,7 @@
 				<td><form:input path="cObs" placeholder="Ej. 15" onkeypress="return soloLetras(event)"/></td>
 
 			</tr>
-
+			
 		</table>
 
 	</fieldset>

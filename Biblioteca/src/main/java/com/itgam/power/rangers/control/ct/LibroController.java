@@ -31,7 +31,7 @@ public class LibroController {
 	@RequestMapping(value = "/libro/registro", method = RequestMethod.POST)
 	public String registroLibro(@ModelAttribute("ctLibro") ctLibro obj_ctLibro) throws SQLException {
 		System.out.println("Entro con: " + obj_ctLibro.getiLibro());
-		if(obj_ctLibro.getiLibro().equals(null)){
+		if((obj_ctLibro.getiLibro()).equals(0)){
 			System.out.println("Entro");
 			libroService.addctLibro(obj_ctLibro);
 		}
