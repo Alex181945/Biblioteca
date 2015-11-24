@@ -1,6 +1,7 @@
 package com.itgam.power.rangers.service.impl.ct;
 
 import java.sql.SQLException;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -27,4 +28,11 @@ public class EditorialServiceImpl implements EditorialService {
 		editorialDao.deletectEditorial(id_ctEditorial);
 	}
 	
+	public List<ctEditorial> list_ctEditorial(){
+		return editorialDao.list_ctEditorial();
+	}
+	
+	public ctEditorial get_ctEditorial (Integer id_ctEditorial){
+		return editorialDao.get_ctEditorial(id_ctEditorial);
+	}
 }

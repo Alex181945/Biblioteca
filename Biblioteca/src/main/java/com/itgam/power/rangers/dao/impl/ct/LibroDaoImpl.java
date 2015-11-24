@@ -8,14 +8,20 @@ import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import com.itgam.power.rangers.dao.ct.EditorialDao;
 import com.itgam.power.rangers.dao.ct.LibroDao;
+import com.itgam.power.rangers.model.ctEditorial;
 import com.itgam.power.rangers.model.ctLibro;
 import com.itgam.power.rangers.util.DBConexion;
 
 @Repository
 public class LibroDaoImpl implements LibroDao {
+	
+	@Autowired
+	private EditorialDao editorialDao;
 
 	public void addctLibro (ctLibro obj_ctLibro){
 		
@@ -139,6 +145,8 @@ public class LibroDaoImpl implements LibroDao {
 		
 		/*Creacion de la lista que almacenara los datos*/
 		List<ctLibro> Lista = new ArrayList<ctLibro>();
+		List<ctEditorial> listaEditorial = new ArrayList<ctEditorial>();
+		listaEditorial = editorialDao.list_ctEditorial();
 		
 		/*Conexion a la base de datos*/
 		DBConexion conexion = new DBConexion();
@@ -165,6 +173,16 @@ public class LibroDaoImpl implements LibroDao {
 				obj.setlEstatus(res.getBoolean("lEstatus"));
 				obj.setcObs(res.getString("cObs"));
 				
+				for (ctEditorial editorial : listaEditorial) {
+					if(editorial.getiEditorial().equals(obj.getiEditorial())){
+						ctEditorial obj_ctEditorial = new ctEditorial();
+						obj_ctEditorial.setiEditorial(editorial.getiEditorial());
+						obj_ctEditorial.setcEditorial(editorial.getcEditorial());
+						obj_ctEditorial.setlEstatus(editorial.getlEstatus());
+						obj_ctEditorial.setcObs(editorial.getcObs());
+						obj.setEditorial(obj_ctEditorial);
+					}
+				}
 				Lista.add(obj);
 			}
 			

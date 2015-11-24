@@ -4,6 +4,8 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
@@ -73,8 +75,7 @@ public class EditorialDaoImpl implements EditorialDao {
 			String sentencia = null;
 			
 			sentencia = "UPDATE ctEditorial SET cEditorial = \""+obj_ctEditorial.getcEditorial()+"\","
-					+"lEstatus = "+obj_ctEditorial.getlEstatus()+","
-									+ "cObs = \""+obj_ctEditorial.getcObs()+"\" WHERE iLibro = "+obj_ctEditorial.getiEditorial()+"";
+					+"lEstatus = "+obj_ctEditorial.getlEstatus()+",cObs = \""+obj_ctEditorial.getcObs()+"\" WHERE iLibro = "+obj_ctEditorial.getiEditorial()+"";
 			System.out.println(sentencia);
 			consulta.executeUpdate(sentencia);
 			
@@ -95,5 +96,85 @@ public class EditorialDaoImpl implements EditorialDao {
 	
 	public void deletectEditorial (Integer id_ctEditorial){
 		
+		/*Conexion a la base de datos*/
+		DBConexion conexion = new DBConexion();
+		Connection inicio = conexion.GetConnection();
+		
+		try{
+			/*Creacion de la variable que almacenara la sentencia SQL*/
+			Statement consulta = inicio.createStatement();
+			
+			/*Sentencia SQL*/
+			String sentencia = null;
+			
+			sentencia = "DELETE FROM ctEditorial WHERE iEditorial = "+id_ctEditorial+"";
+			consulta.execute(sentencia);
+			
+		}catch (Exception e){
+			System.out.println("Hubo un problema: "+e);
+		}
+		finally{
+			/*Terminando conexion con la base de datos*/
+			System.out.println("Termina conexion");
+			try {
+				inicio.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public List<ctEditorial> list_ctEditorial(){
+		
+		/*Creacion de la lista que almacenara los datos*/
+		List<ctEditorial> Lista = new ArrayList<ctEditorial>();
+		
+		/*Conexion a la base de datos*/
+		DBConexion conexion = new DBConexion();
+		Connection inicio = conexion.GetConnection();
+		
+		try{
+			/*Creacion de la variable que almacenara la sentencia SQL*/
+			Statement consulta = inicio.createStatement();
+			
+			/*Sentencia SQL*/
+			String sentencia = null;
+			
+			sentencia = "SELECT * FROM ctEditorial";
+			ResultSet res = consulta.executeQuery(sentencia);
+			
+			while(res.next()){
+				ctEditorial obj = new ctEditorial();
+				
+				obj.setiEditorial(res.getInt("iEditorial"));
+				obj.setcEditorial(res.getString("cEditorial"));
+				obj.setiEditorial(res.getInt("iEditorial"));
+				obj.setlEstatus(res.getBoolean("lEstatus"));
+				obj.setcObs(res.getString("cObs"));
+				
+				Lista.add(obj);
+			}
+			
+		}catch (Exception e){
+			System.out.println("Hubo un problema: "+e);
+		}
+		finally{
+			/*Terminando conexion con la base de datos*/
+			System.out.println("Termina conexion");
+			try {
+				inicio.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		return Lista ;
+	}
+	
+	public ctEditorial get_ctEditorial (Integer id_ctEditorial){
+		
+		
+		return null;
 	}
 }

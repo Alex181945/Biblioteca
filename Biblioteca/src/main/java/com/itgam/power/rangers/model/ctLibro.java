@@ -9,6 +9,7 @@ public class ctLibro {
 	private Integer iMateria;
 	private Boolean lEstatus;
 	private String cObs;
+	private ctEditorial editorial;
 	
 	public Integer getiLibro() {
 		return iLibro;
@@ -51,6 +52,12 @@ public class ctLibro {
 	}
 	public void setcObs(String cObs) {
 		this.cObs = cObs;
+	}
+	public ctEditorial getEditorial() {
+		return editorial;
+	}
+	public void setEditorial(ctEditorial editorial) {
+		this.editorial = editorial;
 	}
 	
 }
