@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -7,9 +8,9 @@
 <meta name="description" content="Place your description here">
 <meta name="keywords" content="put, your, keyword, here">
 <meta name="author" content="Templates.com - website templates provider">
-<link rel="stylesheet" href="<c:url value= "resources/css/reset.css"/>" type="text css" media="all">
-<link rel="stylesheet" href="<c:url value= "resources/css/style.css"/>" type="text/css" media="all">
-<link rel="stylesheet" href="<c:url value= "resources/css/button.css"/>" type="text/css" media="all">
+<link rel="stylesheet" href="<c:url value="resources/css/reset.css"/>" type="text css" media="all">
+<link rel="stylesheet" href="<c:url value="resources/css/style.css"/>" type="text/css" media="all">
+<link rel="stylesheet" href="<c:url value="resources/css/button.css"/>" type="text/css" media="all">
 <script type="text/javascript" src="resources/js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="resources/js/cufon-replace.js"></script>
