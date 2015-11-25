@@ -1,4 +1,4 @@
-package com.itgam.power.rangers.dao.impl.pr;
+package com.itgam.power.rangers.dao.pr;
 
 import com.itgam.power.rangers.model.prPrestamos;
 
