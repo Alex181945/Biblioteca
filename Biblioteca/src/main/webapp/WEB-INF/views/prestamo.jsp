@@ -55,7 +55,7 @@
       <aside>
          <h3>Categorias</h3>
          <ul class="categories">
-            <li>Préstamo</li>
+            <li>Prestamo</li>
                             <ul>
                                 <li><a href="../prestamo-en-sala/">Préstamo en sala</a></li>
                                 <li><a href="../prestamo-domicilio/">Préstamo a domicilio</a></li>
