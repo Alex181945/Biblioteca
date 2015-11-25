@@ -67,8 +67,8 @@
             <li><strong></strong>
                <h4><a href="#">Normatividad SCT</a></h4>
                Donacion de la Secretaria de Comunicaciones y Transportes para la infraestructura del transporte. </li>
-            <li><strong>strong>
-               <h4><a href="#">Biblioteconomia, Documentacion, Archivistica y Museologia</a></h4>
+            <li><strong>
+               <h4><a href="#">Biblioteconomia, Documentacion, Archivistica.</a></h4>
               Esta coleccion esta especializada en Biblioteconomia, Documentacion, Archivistica y Museologia, asi como en materias estrechamente relacionadas con estas disciplinas, como la Historia del libro o las Nuevas Tecnologias de la Informacion. </li>
          </ul>
       </aside>
@@ -108,7 +108,7 @@ Aqui encontrara usted una seleccion de textos digitalizados pertenecientes al Se
    <div class="container">
       <div class="inside">
          <div class="wrapper">
-            <div class="fleft">Visitas<span>8,800,745,412</span></div>
+            <div class="fleft">Visitas<span>10,154</span></div>
             <p class="w3-link"> <a 
             href="http://w3layouts.com/"> Hecho en Mexico, INSTITUTO TECNOLOGICO DE LA GUSTAVO A. MADERO (ITGAM) Copyright © 1995-2015 eBay Inc. Todos los derechos reservados. Condiciones de uso, Privacidad, Cookies y AdChoice.</a></p>
          </div>
