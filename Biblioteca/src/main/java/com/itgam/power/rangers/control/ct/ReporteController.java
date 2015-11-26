@@ -19,9 +19,7 @@ public class ReporteController {
 	@Autowired
 	private UsuarioService usuarioSerivice;
 	
-	
-	
-	@RequestMapping(value = "/repUsuario", method = RequestMethod.GET)
+	@RequestMapping(value = "/repUsuario", method = RequestMethod.POST)
 	public ModelAndView getList(Model model){
 
 		List<ctUsuario> list = usuarioSerivice.list_ctUsuario();
