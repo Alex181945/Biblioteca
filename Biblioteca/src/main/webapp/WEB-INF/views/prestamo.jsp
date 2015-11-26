@@ -56,21 +56,13 @@
       <aside>
          <h3>Categorias</h3>
          <ul class="categories">
-            <li>Prestamo</li>
-                            <ul>
-                                <li><a href="../prestamo-en-sala/">Préstamo en sala</a></li>
-                                <li><a href="../prestamo-domicilio/">Préstamo a domicilio</a></li>
-                                <li><a href="../prestamo-interbibliotecario/">Préstamo interbibliotecario</a></li>
-                                <li><a href="../prestamo-domicilio/Lineamientos.php">Lineamientos para el préstamo en sala y a domicilio</a></li>
-                            </ul>
-
-         </ul>
+           
          <form action="" id="newsletter-form">
         </div>
                      <div class="interiorServ_texto">
                       
                        <p>Consiste en la autorización que se otorga a los usuarios para llevar fuera de la Biblioteca Vasconcelos los materiales de la colección general, colección infantil, Sala Multimedia, Música y Braille, con excepción de las publicaciones periódicas y las obras de consulta.                         </p>
-                       <p>Para este servicio se requiere                         </p>
+                       <p>Para este servicio se requiere  </p>
                        <ul>
                          <li>Tramitar la credencial de la biblioteca.<br>
                            <br>
@@ -182,14 +174,3 @@
 <script type="text/javascript"> Cufon.now(); </script>
 </body>
 </html>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
-</html>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
