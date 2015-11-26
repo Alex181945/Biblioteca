@@ -35,7 +35,7 @@
             <ul>
                <li class="current"><a href="biblioteca" class="m1">Incio</a></li>
                <li><a href="libro" class="m2">Disponibilidad de Libros</a></li>
-               <li><a href="articles.html" class="m3">Usuarios Registrados</a></li>
+               <li><a href="usuario" class="m3">Usuarios Registrados</a></li>
                <li><a href="contact-us.html" class="m4">Herramientas Administrativas</a></li>
             </ul>
          </nav>
