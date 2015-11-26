@@ -187,7 +187,7 @@ public class UsuarioDaoImpl implements UsuarioDao {
 				obj.setcNumExterior(res.getString("cNumExterior"));
 				obj.setcNumInterior(res.getString("cNumInterior"));
 				obj.setcColonia(res.getString("cColonia"));
-				obj.setcCP (res.getString("cCP "));
+				obj.setcCP (res.getString("cCP"));
 				obj.setcEstado(res.getString("cEstado"));
 				obj.setcEmail(res.getString("cEmail"));
 				obj.setDtFechaNac(res.getString("dtFechaNac"));

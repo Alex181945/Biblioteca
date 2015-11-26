@@ -56,7 +56,7 @@
             <li><span><a href="#">Usuarios</a></span></li>
             <li><span><a href="#">Catalogos</a></span></li>
             <li><span><a href="#">Editoriales</a></span></li>
-            <li><span><a href="#">Reportes</a></span></li>
+            <li><span><a href="repUsuario">Reportes</a></span></li>
          </ul>
        
          <h2>Noticias <span>ITGAM</span></h2>

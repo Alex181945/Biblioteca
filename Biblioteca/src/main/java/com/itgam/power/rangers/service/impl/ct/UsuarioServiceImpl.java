@@ -1,6 +1,7 @@
 package com.itgam.power.rangers.service.impl.ct;
 
 import java.sql.SQLException;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,5 +30,13 @@ public class UsuarioServiceImpl implements UsuarioService {
 	
 	public Boolean loginctUsuario (ctUsuario obj_ctUsuario) throws SQLException{
 		return usuarioDao.loginctUsuario(obj_ctUsuario);
+	}
+	
+	public List<ctUsuario> list_ctUsuario(){
+		return usuarioDao.list_ctUsuario();
+	}
+	
+	public ctUsuario get_ctUsuario(Integer id_ctUsuario){
+		return usuarioDao.get_ctUsuario(id_ctUsuario);
 	}
 }
