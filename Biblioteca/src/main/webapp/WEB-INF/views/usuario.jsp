@@ -110,8 +110,8 @@
                		<td><p align = "justify"><span><c:out value="${ctUsuario.cNombre}"></c:out></span></p></td>
                		<td><p align = "center"><span><c:out value="${ctUsuario.cApellidos}"></c:out></span></p></td>
                		<td><p align = "justify"><span><c:out value="${ctUsuario.cCalle}"></c:out></span></p></td>
-               		<td><p align = "center"><span><c:out value="${ctUsuario.cNumeroExterior}"></c:out></span></p></td>
-               		<td><p align = "center"><span><c:out value="${ctUsuario.cNumeroInterior}"></c:out></span></p></td>
+               		<td><p align = "center"><span><c:out value="${ctUsuario.cNumExterior}"></c:out></span></p></td>
+               		<td><p align = "center"><span><c:out value="${ctUsuario.cNumInterior}"></c:out></span></p></td>
                		<td><p align = "justify"><span><c:out value="${ctUsuario.cObs}"></c:out></span></p></td>
                		
                		<td><nobr>
