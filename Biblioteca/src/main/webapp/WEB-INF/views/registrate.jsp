@@ -107,7 +107,7 @@
 						    </div>
 						    <div>
 						     	<span><label>Codigo Postal</label></span>
-						    	<span><input name="cCP" type="text" class="textbox" placeholder="07870" required></span>
+						    	<span><input name="cCP" type="text" class="textbox" placeholder="07870" maxlength = "5" required></span>
 						    </div>
 						    <div>
 						     	<span>Estado<label></label></span>

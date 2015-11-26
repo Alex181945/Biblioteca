@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -103,15 +104,15 @@
                </tr>
                </thead>
                <tbody>
-               <c:forEach items="${lista_ctLibro}" var ="ctLibro">
+               <c:forEach items="${lista_ctUsuario}" var ="ctUsuario">
                <tr>
-               		<td><p align = "center"><span class="txt1"><c:out value="${ctLibro.iLibro}"></c:out></span></p></td>
-               		<td><p align = "justify"><span><c:out value="${ctLibro.cNombre}"></c:out></span></p></td>
-               		<td><p align = "center"><span><c:out value="${ctLibro.iEditorial}"></c:out></span></p></td>
-               		<td><p align = "justify"><span><c:out value="${ctLibro.cAutor}"></c:out></span></p></td>
-               		<td><p align = "center"><span><c:out value="${ctLibro.iMateria}"></c:out></span></p></td>
-               		<td><p align = "center"><span><c:out value="${ctLibro.lEstatus}"></c:out></span></p></td>
-               		<td><p align = "justify"><span><c:out value="${ctLibro.cObs}"></c:out></span></p></td>
+               		<td><p align = "center"><span class="txt1"><c:out value="${ctUsuario.iUsuario}"></c:out></span></p></td>
+               		<td><p align = "justify"><span><c:out value="${ctUsuario.cNombre}"></c:out></span></p></td>
+               		<td><p align = "center"><span><c:out value="${ctUsuario.cApellidos}"></c:out></span></p></td>
+               		<td><p align = "justify"><span><c:out value="${ctUsuario.cCalle}"></c:out></span></p></td>
+               		<td><p align = "center"><span><c:out value="${ctUsuario.cNumeroExterior}"></c:out></span></p></td>
+               		<td><p align = "center"><span><c:out value="${ctUsuario.cNumeroInterior}"></c:out></span></p></td>
+               		<td><p align = "justify"><span><c:out value="${ctUsuario.cObs}"></c:out></span></p></td>
                		
                		<td><nobr>
 

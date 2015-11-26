@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.itgam.power.rangers.model.ctLibro;
 import com.itgam.power.rangers.model.ctUsuario;
 import com.itgam.power.rangers.service.ct.UsuarioService;
 
@@ -54,5 +55,14 @@ private static final Logger logger = LoggerFactory.getLogger(HomeController.clas
 	@RequestMapping(value = "/biblioteca", method = RequestMethod.GET)
 	public String inicio(Locale locale, Model model) {
 		return "inicioSistema";
+	}
+	
+	@RequestMapping(value = "/usuario", method = RequestMethod.GET)
+	public String usuario(Locale locale, Model model) {
+		
+		
+		model.addAttribute("ctUsuario", new ctUsuario());
+		model.addAttribute("lista_ctUsuario",usuarioService.list_ctUsuario());
+		return "usuario";
 	}
 }
